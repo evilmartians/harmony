@@ -1,0 +1,15 @@
+{
+  "name": "@evilmartians/harmony",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "deno task build"
+  },
+  "exports": {
+    "./*": "./dist/*.js"
+  },
+  "keywords": [
+    "colors", "palette", "tailwind"
+  ],
+  "sideEffects": false,
+  "license": "MIT"
+}
