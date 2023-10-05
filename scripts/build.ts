@@ -28,7 +28,7 @@ const TARGETS = [
 const SourceSchema = z.record(
   z.string().regex(/\w+\/\d+/).toLowerCase(),
   z.object({
-    $description: z.string(),
+    $oklch: z.string(),
   }),
 );
 
@@ -71,7 +71,7 @@ async function loadPalette(fileName: string): Promise<Palette> {
     if (!result[name]) {
       result[name] = {};
     }
-    result[name][shade] = value.$description;
+    result[name][shade] = value.$oklch;
   }
 
   return result;
