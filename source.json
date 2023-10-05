@@ -1,0 +1,2477 @@
+{
+  "Red/50": {
+    "$value": "#fefafa",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 20)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,20,100",
+    "$contrast": -105.15768233897973,
+    "$contrastBg": "black"
+  },
+  "Orange/50": {
+    "$value": "#fdfaf9",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 43.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,43.33333333333333,100",
+    "$contrast": -105.19005965789154,
+    "$contrastBg": "black"
+  },
+  "Amber/50": {
+    "$value": "#fdfbf8",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 66.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,66.66666666666666,100",
+    "$contrast": -105.23658976658778,
+    "$contrastBg": "black"
+  },
+  "Yellow/50": {
+    "$value": "#fcfbf8",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 90)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,90,100",
+    "$contrast": -105.28977763856004,
+    "$contrastBg": "black"
+  },
+  "Lime/50": {
+    "$value": "#fbfbf8",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 106.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,106.66666666666667,100",
+    "$contrast": -105.32706537248913,
+    "$contrastBg": "black"
+  },
+  "Green/50": {
+    "$value": "#fbfcf9",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 123.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,123.33333333333334,100",
+    "$contrast": -105.36019413050435,
+    "$contrastBg": "black"
+  },
+  "Emerald/50": {
+    "$value": "#fafcf9",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 140)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,140,100",
+    "$contrast": -105.38635289658384,
+    "$contrastBg": "black"
+  },
+  "Teal/50": {
+    "$value": "#f9fcfa",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 160)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,160,100",
+    "$contrast": -105.40543529000341,
+    "$contrastBg": "black"
+  },
+  "Cyan/50": {
+    "$value": "#f9fcfb",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 180)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,180,100",
+    "$contrast": -105.40891739103793,
+    "$contrastBg": "black"
+  },
+  "Sky/50": {
+    "$value": "#f9fcfd",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 210)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,210,100",
+    "$contrast": -105.3844419403475,
+    "$contrastBg": "black"
+  },
+  "Blue/50": {
+    "$value": "#f9fcfe",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 240)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,240,100",
+    "$contrast": -105.33096464536378,
+    "$contrastBg": "black"
+  },
+  "Indigo/50": {
+    "$value": "#fafbfe",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 260)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,260,100",
+    "$contrast": -105.2861847448562,
+    "$contrastBg": "black"
+  },
+  "Violet/50": {
+    "$value": "#fafbfe",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 280)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,280,100",
+    "$contrast": -105.24036778113617,
+    "$contrastBg": "black"
+  },
+  "Purple/50": {
+    "$value": "#fbfbfe",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 300)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,300,100",
+    "$contrast": -105.19904867133324,
+    "$contrastBg": "black"
+  },
+  "Fuchsia/50": {
+    "$value": "#fcfafd",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 320)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,320,100",
+    "$contrast": -105.16716781657638,
+    "$contrastBg": "black"
+  },
+  "Pink/50": {
+    "$value": "#fdfafc",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 340)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,340,100",
+    "$contrast": -105.14849570742983,
+    "$contrastBg": "black"
+  },
+  "Rose/50": {
+    "$value": "#fdfafb",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004687500000000001,360,100",
+    "$contrast": -105.14521332898899,
+    "$contrastBg": "black"
+  },
+  "Slate/50": {
+    "$value": "#fafbfe",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.0046875,275,100",
+    "$contrast": -105.25161134176153,
+    "$contrastBg": "black"
+  },
+  "Gray/50": {
+    "$value": "#fafbfe",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.0046875,275,100",
+    "$contrast": -105.25161134176153,
+    "$contrastBg": "black"
+  },
+  "Zinc/50": {
+    "$value": "#fafbfe",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.005 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.004875,275,100",
+    "$contrast": -105.2505798343969,
+    "$contrastBg": "black"
+  },
+  "Neutral/50": {
+    "$value": "#fbfbfb",
+    "$type": "color",
+    "$description": "oklch(98.83% 0 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0,0,100",
+    "$contrast": -105.27689563370342,
+    "$contrastBg": "black"
+  },
+  "Stone/50": {
+    "$value": "#fefbf6",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.008 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.008,75,100",
+    "$contrast": -105.23946808885256,
+    "$contrastBg": "black"
+  },
+  "Sand/50": {
+    "$value": "#fffbf4",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.01 75)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#98.828125,0.0104375,75,100",
+    "$contrast": -105.22758572323406,
+    "$contrastBg": "black"
+  },
+  "Olive/50": {
+    "$value": "#fbfcf7",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.008 120)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.008,120,100",
+    "$contrast": -105.4081410184954,
+    "$contrastBg": "black"
+  },
+  "Mauve/50": {
+    "$value": "#fdfafe",
+    "$type": "color",
+    "$description": "oklch(98.83% 0.008 325)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#98.828125,0.008,325,100",
+    "$contrast": -105.07925546170486,
+    "$contrastBg": "black"
+  },
+  "Red/100": {
+    "$value": "#fdf0f0",
+    "$type": "color",
+    "$description": "oklch(96.68% 0.017 20)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#96.6796875,0.0171875,20,100",
+    "$contrast": -100.14014430059217,
+    "$contrastBg": "black"
+  },
+  "Orange/100": {
+    "$value": "#fcf1ec",
+    "$type": "color",
+    "$description": "oklch(96.68% 0.017 43.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.6796875,0.0171875,43.33333333333333,100",
+    "$contrast": -100.25442407683774,
+    "$contrastBg": "black"
+  },
+  "Amber/100": {
+    "$value": "#fbf2e9",
+    "$type": "color",
+    "$description": "oklch(96.68% 0.017 66.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.6796875,0.0171875,66.66666666666666,100",
+    "$contrast": -100.41924249202958,
+    "$contrastBg": "black"
+  },
+  "Yellow/100": {
+    "$value": "#f7f3e8",
+    "$type": "color",
+    "$description": "oklch(96.48% 0.017 90)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.484375,0.0171875,90,100",
+    "$contrast": -100.18559298967193,
+    "$contrastBg": "black"
+  },
+  "Lime/100": {
+    "$value": "#f4f4e9",
+    "$type": "color",
+    "$description": "oklch(96.48% 0.017 106.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.484375,0.0171875,106.66666666666667,100",
+    "$contrast": -100.31971520429082,
+    "$contrastBg": "black"
+  },
+  "Green/100": {
+    "$value": "#f1f5e9",
+    "$type": "color",
+    "$description": "oklch(96.29% 0.017 123.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.2890625,0.0171875,123.33333333333334,100",
+    "$contrast": -100.0165732586812,
+    "$contrastBg": "black"
+  },
+  "Emerald/100": {
+    "$value": "#eff6ec",
+    "$type": "color",
+    "$description": "oklch(96.29% 0.017 140)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.2890625,0.0171875,140,100",
+    "$contrast": -100.11207974829065,
+    "$contrastBg": "black"
+  },
+  "Teal/100": {
+    "$value": "#ecf6ef",
+    "$type": "color",
+    "$description": "oklch(96.29% 0.017 160)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.2890625,0.0171875,160,100",
+    "$contrast": -100.1824867986035,
+    "$contrastBg": "black"
+  },
+  "Cyan/100": {
+    "$value": "#eaf6f3",
+    "$type": "color",
+    "$description": "oklch(96.29% 0.017 180)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.2890625,0.0171875,180,100",
+    "$contrast": -100.19598381019593,
+    "$contrastBg": "black"
+  },
+  "Sky/100": {
+    "$value": "#e9f6f9",
+    "$type": "color",
+    "$description": "oklch(96.29% 0.017 210)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.2890625,0.0171875,210,100",
+    "$contrast": -100.10702821136563,
+    "$contrastBg": "black"
+  },
+  "Blue/100": {
+    "$value": "#ecf5fd",
+    "$type": "color",
+    "$description": "oklch(96.48% 0.017 240)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.484375,0.0171875,240,100",
+    "$contrast": -100.33526613585838,
+    "$contrastBg": "black"
+  },
+  "Indigo/100": {
+    "$value": "#eef4fe",
+    "$type": "color",
+    "$description": "oklch(96.48% 0.017 260)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#96.484375,0.0171875,260,100",
+    "$contrast": -100.17290973570687,
+    "$contrastBg": "black"
+  },
+  "Violet/100": {
+    "$value": "#f1f2fe",
+    "$type": "color",
+    "$description": "oklch(96.48% 0.017 280)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#96.484375,0.0171875,280,100",
+    "$contrast": -100.00821903763809,
+    "$contrastBg": "black"
+  },
+  "Purple/100": {
+    "$value": "#f5f2fd",
+    "$type": "color",
+    "$description": "oklch(96.68% 0.017 300)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.6796875,0.0171875,300,100",
+    "$contrast": -100.28418243555437,
+    "$contrastBg": "black"
+  },
+  "Fuchsia/100": {
+    "$value": "#f8f1fb",
+    "$type": "color",
+    "$description": "oklch(96.68% 0.017 320)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.6796875,0.0171875,320,100",
+    "$contrast": -100.17171490868873,
+    "$contrastBg": "black"
+  },
+  "Pink/100": {
+    "$value": "#faf0f7",
+    "$type": "color",
+    "$description": "oklch(96.68% 0.017 340)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.6796875,0.0171875,340,100",
+    "$contrast": -100.10663318200457,
+    "$contrastBg": "black"
+  },
+  "Rose/100": {
+    "$value": "#fcf0f3",
+    "$type": "color",
+    "$description": "oklch(96.68% 0.017 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.6796875,0.0171875,360,100",
+    "$contrast": -100.09582580074196,
+    "$contrastBg": "black"
+  },
+  "Slate/100": {
+    "$value": "#f0f3ff",
+    "$type": "color",
+    "$description": "oklch(96.48% 0.018 275)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#96.484375,0.01775,275,100",
+    "$contrast": -100.04513748110662,
+    "$contrastBg": "black"
+  },
+  "Gray/100": {
+    "$value": "#f0f3fe",
+    "$type": "color",
+    "$description": "oklch(96.48% 0.016 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.484375,0.016,275,100",
+    "$contrast": -100.05550821818956,
+    "$contrastBg": "black"
+  },
+  "Zinc/100": {
+    "$value": "#f2f3f8",
+    "$type": "color",
+    "$description": "oklch(96.48% 0.008 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.484375,0.008,275,100",
+    "$contrast": -100.10117421951703,
+    "$contrastBg": "black"
+  },
+  "Neutral/100": {
+    "$value": "#f3f3f3",
+    "$type": "color",
+    "$description": "oklch(96.48% 0 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.484375,0,0,100",
+    "$contrast": -100.14400712664819,
+    "$contrastBg": "black"
+  },
+  "Stone/100": {
+    "$value": "#f6f3ee",
+    "$type": "color",
+    "$description": "oklch(96.48% 0.008 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.484375,0.008,75,100",
+    "$contrast": -100.10735814414977,
+    "$contrastBg": "black"
+  },
+  "Sand/100": {
+    "$value": "#f7f3ec",
+    "$type": "color",
+    "$description": "oklch(96.48% 0.012 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.484375,0.012,75,100",
+    "$contrast": -100.0881385459425,
+    "$contrastBg": "black"
+  },
+  "Olive/100": {
+    "$value": "#f3f4ef",
+    "$type": "color",
+    "$description": "oklch(96.48% 0.008 120)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.484375,0.008,120,100",
+    "$contrast": -100.27244727086202,
+    "$contrastBg": "black"
+  },
+  "Mauve/100": {
+    "$value": "#f6f2f7",
+    "$type": "color",
+    "$description": "oklch(96.68% 0.008 325)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#96.6796875,0.008,325,100",
+    "$contrast": -100.3737303654698,
+    "$contrastBg": "black"
+  },
+  "Red/200": {
+    "$value": "#fadcda",
+    "$type": "color",
+    "$description": "oklch(92.19% 0.042 20)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#92.1875,0.04218750000000001,20,100",
+    "$contrast": -90.0225137948612,
+    "$contrastBg": "black"
+  },
+  "Orange/200": {
+    "$value": "#f9ded1",
+    "$type": "color",
+    "$description": "oklch(92.19% 0.042 43.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#92.1875,0.04218750000000001,43.33333333333333,100",
+    "$contrast": -90.28069714589697,
+    "$contrastBg": "black"
+  },
+  "Amber/200": {
+    "$value": "#f4e1ca",
+    "$type": "color",
+    "$description": "oklch(91.99% 0.042 66.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.9921875,0.04218750000000001,66.66666666666666,100",
+    "$contrast": -90.250842899355,
+    "$contrastBg": "black"
+  },
+  "Yellow/200": {
+    "$value": "#ede4c8",
+    "$type": "color",
+    "$description": "oklch(91.8% 0.042 90)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.796875,0.04218750000000001,90,100",
+    "$contrast": -90.2849155820292,
+    "$contrastBg": "black"
+  },
+  "Lime/200": {
+    "$value": "#e6e6c9",
+    "$type": "color",
+    "$description": "oklch(91.6% 0.042 106.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.6015625,0.04218750000000001,106.66666666666667,100",
+    "$contrast": -90.19598366891242,
+    "$contrastBg": "black"
+  },
+  "Green/200": {
+    "$value": "#dfe7cc",
+    "$type": "color",
+    "$description": "oklch(91.41% 0.042 123.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.40625,0.04218750000000001,123.33333333333334,100",
+    "$contrast": -90.07875344022635,
+    "$contrastBg": "black"
+  },
+  "Emerald/200": {
+    "$value": "#d8e9d2",
+    "$type": "color",
+    "$description": "oklch(91.41% 0.042 140)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.40625,0.04218750000000001,140,100",
+    "$contrast": -90.31152907133047,
+    "$contrastBg": "black"
+  },
+  "Teal/200": {
+    "$value": "#d1eada",
+    "$type": "color",
+    "$description": "oklch(91.21% 0.042 160)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.2109375,0.04218750000000001,160,100",
+    "$contrast": -90.08211958830785,
+    "$contrastBg": "black"
+  },
+  "Cyan/200": {
+    "$value": "#ccebe3",
+    "$type": "color",
+    "$description": "oklch(91.21% 0.042 180)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.2109375,0.04218750000000001,180,100",
+    "$contrast": -90.11930013344536,
+    "$contrastBg": "black"
+  },
+  "Sky/200": {
+    "$value": "#cbeaf1",
+    "$type": "color",
+    "$description": "oklch(91.41% 0.042 210)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.40625,0.04218750000000001,210,100",
+    "$contrast": -90.30960203558655,
+    "$contrastBg": "black"
+  },
+  "Blue/200": {
+    "$value": "#d0e7fb",
+    "$type": "color",
+    "$description": "oklch(91.6% 0.042 240)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.6015625,0.04218750000000001,240,100",
+    "$contrast": -90.24008754400838,
+    "$contrastBg": "black"
+  },
+  "Indigo/200": {
+    "$value": "#d7e5fe",
+    "$type": "color",
+    "$description": "oklch(91.8% 0.042 260)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#91.796875,0.04218750000000001,260,100",
+    "$contrast": -90.25522371456228,
+    "$contrastBg": "black"
+  },
+  "Violet/200": {
+    "$value": "#dfe2fe",
+    "$type": "color",
+    "$description": "oklch(91.99% 0.042 280)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#91.9921875,0.04218750000000001,280,100",
+    "$contrast": -90.27159205927155,
+    "$contrastBg": "black"
+  },
+  "Purple/200": {
+    "$value": "#e7e0fc",
+    "$type": "color",
+    "$description": "oklch(92.19% 0.042 300)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#92.1875,0.04218750000000001,300,100",
+    "$contrast": -90.33680497676391,
+    "$contrastBg": "black"
+  },
+  "Fuchsia/200": {
+    "$value": "#efddf5",
+    "$type": "color",
+    "$description": "oklch(92.19% 0.042 320)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#92.1875,0.04218750000000001,320,100",
+    "$contrast": -90.08349487124066,
+    "$contrastBg": "black"
+  },
+  "Pink/200": {
+    "$value": "#f5ddee",
+    "$type": "color",
+    "$description": "oklch(92.38% 0.042 340)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#92.3828125,0.04218750000000001,340,100",
+    "$contrast": -90.34552493069572,
+    "$contrastBg": "black"
+  },
+  "Rose/200": {
+    "$value": "#f9dce4",
+    "$type": "color",
+    "$description": "oklch(92.38% 0.042 0)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#92.3828125,0.04218750000000001,360,100",
+    "$contrast": -90.32519240572145,
+    "$contrastBg": "black"
+  },
+  "Slate/200": {
+    "$value": "#e0e3f3",
+    "$type": "color",
+    "$description": "oklch(91.8% 0.024 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.796875,0.024,275,100",
+    "$contrast": -90.07817554427668,
+    "$contrastBg": "black"
+  },
+  "Gray/200": {
+    "$value": "#e1e3ee",
+    "$type": "color",
+    "$description": "oklch(91.8% 0.016 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.796875,0.016,275,100",
+    "$contrast": -90.12485459705519,
+    "$contrastBg": "black"
+  },
+  "Zinc/200": {
+    "$value": "#e2e3e9",
+    "$type": "color",
+    "$description": "oklch(91.8% 0.008 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.796875,0.008,275,100",
+    "$contrast": -90.16868153494337,
+    "$contrastBg": "black"
+  },
+  "Neutral/200": {
+    "$value": "#e4e4e4",
+    "$type": "color",
+    "$description": "oklch(91.8% 0 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.796875,0,0,100",
+    "$contrast": -90.20969513496077,
+    "$contrastBg": "black"
+  },
+  "Stone/200": {
+    "$value": "#e6e3df",
+    "$type": "color",
+    "$description": "oklch(91.8% 0.008 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.796875,0.008,75,100",
+    "$contrast": -90.1746145430727,
+    "$contrastBg": "black"
+  },
+  "Sand/200": {
+    "$value": "#e8e3dc",
+    "$type": "color",
+    "$description": "oklch(91.8% 0.012 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.796875,0.012,75,100",
+    "$contrast": -90.15619517193582,
+    "$contrastBg": "black"
+  },
+  "Olive/200": {
+    "$value": "#e3e5df",
+    "$type": "color",
+    "$description": "oklch(91.8% 0.008 120)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.796875,0.008,120,100",
+    "$contrast": -90.3324934191153,
+    "$contrastBg": "black"
+  },
+  "Mauve/200": {
+    "$value": "#e6e2e6",
+    "$type": "color",
+    "$description": "oklch(91.8% 0.008 325)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#91.796875,0.008,325,100",
+    "$contrast": -90.02471501373383,
+    "$contrastBg": "black"
+  },
+  "Red/300": {
+    "$value": "#f7c0be",
+    "$type": "color",
+    "$description": "oklch(86.13% 0.078 20)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#86.1328125,0.07812500000000001,20,100",
+    "$contrast": -77.08644088189351,
+    "$contrastBg": "black"
+  },
+  "Orange/300": {
+    "$value": "#f4c3ac",
+    "$type": "color",
+    "$description": "oklch(85.94% 0.078 43.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#85.9375,0.07812500000000001,43.33333333333333,100",
+    "$contrast": -77.12817341204102,
+    "$contrastBg": "black"
+  },
+  "Amber/300": {
+    "$value": "#ecc8a0",
+    "$type": "color",
+    "$description": "oklch(85.74% 0.078 66.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#85.7421875,0.07812500000000001,66.66666666666666,100",
+    "$contrast": -77.36665444193929,
+    "$contrastBg": "black"
+  },
+  "Yellow/300": {
+    "$value": "#dfce9b",
+    "$type": "color",
+    "$description": "oklch(85.35% 0.078 90)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#85.3515625,0.07812500000000001,90,100",
+    "$contrast": -77.35090285598868,
+    "$contrastBg": "black"
+  },
+  "Lime/300": {
+    "$value": "#d3d29d",
+    "$type": "color",
+    "$description": "oklch(84.96% 0.078 106.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#84.9609375,0.07812500000000001,106.66666666666667,100",
+    "$contrast": -77.14202338903586,
+    "$contrastBg": "black"
+  },
+  "Green/300": {
+    "$value": "#c6d5a3",
+    "$type": "color",
+    "$description": "oklch(84.77% 0.078 123.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#84.765625,0.07812500000000001,123.33333333333334,100",
+    "$contrast": -77.27610332304546,
+    "$contrastBg": "black"
+  },
+  "Emerald/300": {
+    "$value": "#bad8ad",
+    "$type": "color",
+    "$description": "oklch(84.57% 0.078 140)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#84.5703125,0.07812500000000001,140,100",
+    "$contrast": -77.32445446770217,
+    "$contrastBg": "black"
+  },
+  "Teal/300": {
+    "$value": "#acdabd",
+    "$type": "color",
+    "$description": "oklch(84.38% 0.078 160)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#84.375,0.07812500000000001,160,100",
+    "$contrast": -77.27991923033933,
+    "$contrastBg": "black"
+  },
+  "Cyan/300": {
+    "$value": "#a2dbce",
+    "$type": "color",
+    "$description": "oklch(84.38% 0.078 180)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#84.375,0.07812500000000001,180,100",
+    "$contrast": -77.36285345997199,
+    "$contrastBg": "black"
+  },
+  "Sky/300": {
+    "$value": "#9fd9e6",
+    "$type": "color",
+    "$description": "oklch(84.57% 0.078 210)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#84.5703125,0.07812500000000001,210,100",
+    "$contrast": -77.3547578675285,
+    "$contrastBg": "black"
+  },
+  "Blue/300": {
+    "$value": "#aad4f8",
+    "$type": "color",
+    "$description": "oklch(84.96% 0.078 240)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#84.9609375,0.07812500000000001,240,100",
+    "$contrast": -77.23904731959841,
+    "$contrastBg": "black"
+  },
+  "Indigo/300": {
+    "$value": "#b7cffe",
+    "$type": "color",
+    "$description": "oklch(85.35% 0.078 260)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#85.3515625,0.07812500000000001,260,100",
+    "$contrast": -77.29450449032103,
+    "$contrastBg": "black"
+  },
+  "Violet/300": {
+    "$value": "#c6cbff",
+    "$type": "color",
+    "$description": "oklch(85.74% 0.078 280)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#85.7421875,0.07812500000000001,280,100",
+    "$contrast": -77.37378288006676,
+    "$contrastBg": "black"
+  },
+  "Purple/300": {
+    "$value": "#d5c6f9",
+    "$type": "color",
+    "$description": "oklch(85.94% 0.078 300)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#85.9375,0.07812500000000001,300,100",
+    "$contrast": -77.18179280760089,
+    "$contrastBg": "black"
+  },
+  "Fuchsia/300": {
+    "$value": "#e2c3ef",
+    "$type": "color",
+    "$description": "oklch(86.13% 0.078 320)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#86.1328125,0.07812500000000001,320,100",
+    "$contrast": -77.1529937657712,
+    "$contrastBg": "black"
+  },
+  "Pink/300": {
+    "$value": "#edc1e0",
+    "$type": "color",
+    "$description": "oklch(86.33% 0.078 340)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#86.328125,0.07812500000000001,340,100",
+    "$contrast": -77.31441991357511,
+    "$contrastBg": "black"
+  },
+  "Rose/300": {
+    "$value": "#f4c0cf",
+    "$type": "color",
+    "$description": "oklch(86.33% 0.078 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#86.328125,0.07812500000000001,360,100",
+    "$contrast": -77.29412686291785,
+    "$contrastBg": "black"
+  },
+  "Slate/300": {
+    "$value": "#cbcede",
+    "$type": "color",
+    "$description": "oklch(85.35% 0.024 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#85.3515625,0.024,275,100",
+    "$contrast": -77.15383977269352,
+    "$contrastBg": "black"
+  },
+  "Gray/300": {
+    "$value": "#ccced9",
+    "$type": "color",
+    "$description": "oklch(85.35% 0.016 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#85.3515625,0.016,275,100",
+    "$contrast": -77.19792281521444,
+    "$contrastBg": "black"
+  },
+  "Zinc/300": {
+    "$value": "#cdced4",
+    "$type": "color",
+    "$description": "oklch(85.35% 0.008 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#85.3515625,0.008,275,100",
+    "$contrast": -77.23918550427882,
+    "$contrastBg": "black"
+  },
+  "Neutral/300": {
+    "$value": "#cfcfcf",
+    "$type": "color",
+    "$description": "oklch(85.35% 0 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#85.3515625,0,0,100",
+    "$contrast": -77.2776695428903,
+    "$contrastBg": "black"
+  },
+  "Stone/300": {
+    "$value": "#d1ceca",
+    "$type": "color",
+    "$description": "oklch(85.35% 0.008 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#85.3515625,0.008,75,100",
+    "$contrast": -77.24477224126336,
+    "$contrastBg": "black"
+  },
+  "Sand/300": {
+    "$value": "#d3cec7",
+    "$type": "color",
+    "$description": "oklch(85.35% 0.012 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#85.3515625,0.012,75,100",
+    "$contrast": -77.22747122307881,
+    "$contrastBg": "black"
+  },
+  "Olive/300": {
+    "$value": "#cecfca",
+    "$type": "color",
+    "$description": "oklch(85.16% 0.008 120)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#85.15625,0.008,120,100",
+    "$contrast": -77.01378373547809,
+    "$contrastBg": "black"
+  },
+  "Mauve/300": {
+    "$value": "#d1cdd1",
+    "$type": "color",
+    "$description": "oklch(85.35% 0.008 325)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#85.3515625,0.008,325,100",
+    "$contrast": -77.1044355931532,
+    "$contrastBg": "black"
+  },
+  "Red/400": {
+    "$value": "#f2a4a2",
+    "$type": "color",
+    "$description": "oklch(80.08% 0.114 20)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#80.078125,0.11406250000000002,20,100",
+    "$contrast": -65.04009583453124,
+    "$contrastBg": "black"
+  },
+  "Orange/400": {
+    "$value": "#efa987",
+    "$type": "color",
+    "$description": "oklch(79.88% 0.114 43.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#79.8828125,0.11406250000000002,43.33333333333333,100",
+    "$contrast": -65.21726892329842,
+    "$contrastBg": "black"
+  },
+  "Amber/400": {
+    "$value": "#e4b073",
+    "$type": "color",
+    "$description": "oklch(79.49% 0.114 66.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#79.4921875,0.11406250000000002,66.66666666666666,100",
+    "$contrast": -65.30082805452987,
+    "$contrastBg": "black"
+  },
+  "Yellow/400": {
+    "$value": "#d1b86c",
+    "$type": "color",
+    "$description": "oklch(78.91% 0.114 90)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#78.90625,0.11406250000000002,90,100",
+    "$contrast": -65.22035405034259,
+    "$contrastBg": "black"
+  },
+  "Lime/400": {
+    "$value": "#c1be6f",
+    "$type": "color",
+    "$description": "oklch(78.52% 0.114 106.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#78.515625,0.11406250000000002,106.66666666666667,100",
+    "$contrast": -65.26079168195363,
+    "$contrastBg": "black"
+  },
+  "Green/400": {
+    "$value": "#afc37a",
+    "$type": "color",
+    "$description": "oklch(78.13% 0.114 123.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#78.125,0.11406250000000002,123.33333333333334,100",
+    "$contrast": -65.27201406924938,
+    "$contrastBg": "black"
+  },
+  "Emerald/400": {
+    "$value": "#9bc789",
+    "$type": "color",
+    "$description": "oklch(77.73% 0.114 140)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#77.734375,0.11406250000000002,140,100",
+    "$contrast": -65.18351328441426,
+    "$contrastBg": "black"
+  },
+  "Teal/400": {
+    "$value": "#86caa0",
+    "$type": "color",
+    "$description": "oklch(77.54% 0.114 160)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#77.5390625,0.11406250000000002,160,100",
+    "$contrast": -65.33863954694708,
+    "$contrastBg": "black"
+  },
+  "Cyan/400": {
+    "$value": "#75cab8",
+    "$type": "color",
+    "$description": "oklch(77.34% 0.114 180)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#77.34375,0.11406250000000002,180,100",
+    "$contrast": -65.13934215257055,
+    "$contrastBg": "black"
+  },
+  "Sky/400": {
+    "$value": "#6fc7dc",
+    "$type": "color",
+    "$description": "oklch(77.73% 0.114 210)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#77.734375,0.11406250000000002,210,100",
+    "$contrast": -65.29937037528907,
+    "$contrastBg": "black"
+  },
+  "Blue/400": {
+    "$value": "#83c0f5",
+    "$type": "color",
+    "$description": "oklch(78.32% 0.114 240)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#78.3203125,0.11406250000000002,240,100",
+    "$contrast": -65.07163727082647,
+    "$contrastBg": "black"
+  },
+  "Indigo/400": {
+    "$value": "#98bafe",
+    "$type": "color",
+    "$description": "oklch(78.91% 0.114 260)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#78.90625,0.11406250000000002,260,100",
+    "$contrast": -65.12375744987915,
+    "$contrastBg": "black"
+  },
+  "Violet/400": {
+    "$value": "#afb4fe",
+    "$type": "color",
+    "$description": "oklch(79.49% 0.114 280)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#79.4921875,0.11406250000000002,280,100",
+    "$contrast": -65.24983571034234,
+    "$contrastBg": "black"
+  },
+  "Purple/400": {
+    "$value": "#c4aef7",
+    "$type": "color",
+    "$description": "oklch(79.88% 0.114 300)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#79.8828125,0.11406250000000002,300,100",
+    "$contrast": -65.21029381694945,
+    "$contrastBg": "black"
+  },
+  "Fuchsia/400": {
+    "$value": "#d6a8e7",
+    "$type": "color",
+    "$description": "oklch(80.08% 0.114 320)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#80.078125,0.11406250000000002,320,100",
+    "$contrast": -65.06216230026517,
+    "$contrastBg": "black"
+  },
+  "Pink/400": {
+    "$value": "#e5a5d3",
+    "$type": "color",
+    "$description": "oklch(80.27% 0.114 340)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#80.2734375,0.11406250000000002,340,100",
+    "$contrast": -65.16961663921903,
+    "$contrastBg": "black"
+  },
+  "Rose/400": {
+    "$value": "#eea3bb",
+    "$type": "color",
+    "$description": "oklch(80.27% 0.114 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#80.2734375,0.11406250000000002,360,100",
+    "$contrast": -65.16773905131197,
+    "$contrastBg": "black"
+  },
+  "Slate/400": {
+    "$value": "#b6b9c9",
+    "$type": "color",
+    "$description": "oklch(78.91% 0.024 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#78.90625,0.024,275,100",
+    "$contrast": -65.08113407292936,
+    "$contrastBg": "black"
+  },
+  "Gray/400": {
+    "$value": "#b7bac4",
+    "$type": "color",
+    "$description": "oklch(78.91% 0.016 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#78.90625,0.016,275,100",
+    "$contrast": -65.1225623870676,
+    "$contrastBg": "black"
+  },
+  "Zinc/400": {
+    "$value": "#b9babf",
+    "$type": "color",
+    "$description": "oklch(78.91% 0.008 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#78.90625,0.008,275,100",
+    "$contrast": -65.16121308530278,
+    "$contrastBg": "black"
+  },
+  "Neutral/400": {
+    "$value": "#bababa",
+    "$type": "color",
+    "$description": "oklch(78.91% 0 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#78.90625,0,0,100",
+    "$contrast": -65.19713118037737,
+    "$contrastBg": "black"
+  },
+  "Stone/400": {
+    "$value": "#bdbab5",
+    "$type": "color",
+    "$description": "oklch(78.91% 0.008 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#78.90625,0.008,75,100",
+    "$contrast": -65.16645239027231,
+    "$contrastBg": "black"
+  },
+  "Sand/400": {
+    "$value": "#beb9b3",
+    "$type": "color",
+    "$description": "oklch(78.91% 0.012 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#78.90625,0.012,75,100",
+    "$contrast": -65.15029428089657,
+    "$contrastBg": "black"
+  },
+  "Olive/400": {
+    "$value": "#babbb6",
+    "$type": "color",
+    "$description": "oklch(78.91% 0.008 120)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#78.90625,0.008,120,100",
+    "$contrast": -65.30417957495497,
+    "$contrastBg": "black"
+  },
+  "Mauve/400": {
+    "$value": "#bcb9bd",
+    "$type": "color",
+    "$description": "oklch(78.91% 0.008 325)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#78.90625,0.008,325,100",
+    "$contrast": -65.0357936765851,
+    "$contrastBg": "black"
+  },
+  "Red/500": {
+    "$value": "#ec8786",
+    "$type": "color",
+    "$description": "oklch(74.22% 0.152 20)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#74.21875,0.15156250000000002,20,100",
+    "$contrast": -54.2184975085519,
+    "$contrastBg": "black"
+  },
+  "Orange/500": {
+    "$value": "#e98d61",
+    "$type": "color",
+    "$description": "oklch(73.83% 0.152 43.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#73.828125,0.15156250000000002,43.33333333333333,100",
+    "$contrast": -54.1576352896901,
+    "$contrastBg": "black"
+  },
+  "Amber/500": {
+    "$value": "#db9640",
+    "$type": "color",
+    "$description": "oklch(73.24% 0.152 66.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#73.2421875,0.15156250000000002,66.66666666666666,100",
+    "$contrast": -54.07941708078366,
+    "$contrastBg": "black"
+  },
+  "Yellow/500": {
+    "$value": "#c5a231",
+    "$type": "color",
+    "$description": "oklch(72.66% 0.152 90)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#72.65625,0.15156250000000002,90,100",
+    "$contrast": -54.26034331065021,
+    "$contrastBg": "black"
+  },
+  "Lime/500": {
+    "$value": "#b0aa39",
+    "$type": "color",
+    "$description": "oklch(72.07% 0.152 106.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#72.0703125,0.15156250000000002,106.66666666666667,100",
+    "$contrast": -54.18702224731864,
+    "$contrastBg": "black"
+  },
+  "Green/500": {
+    "$value": "#97b14c",
+    "$type": "color",
+    "$description": "oklch(71.48% 0.152 123.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#71.484375,0.15156250000000002,123.33333333333334,100",
+    "$contrast": -54.10511709552996,
+    "$contrastBg": "black"
+  },
+  "Emerald/500": {
+    "$value": "#7db664",
+    "$type": "color",
+    "$description": "oklch(71.09% 0.152 140)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#71.09375,0.15156250000000002,140,100",
+    "$contrast": -54.26175630374802,
+    "$contrastBg": "black"
+  },
+  "Teal/500": {
+    "$value": "#5ab983",
+    "$type": "color",
+    "$description": "oklch(70.51% 0.152 160)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#70.5078125,0.15156250000000002,160,100",
+    "$contrast": -54.006156170845465,
+    "$contrastBg": "black"
+  },
+  "Cyan/500": {
+    "$value": "#39baa4",
+    "$type": "color",
+    "$description": "oklch(70.51% 0.152 180)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#70.5078125,0.15156250000000002,180,100",
+    "$contrast": -54.31425190552922,
+    "$contrastBg": "black"
+  },
+  "Sky/500": {
+    "$value": "#2ab6d1",
+    "$type": "color",
+    "$description": "oklch(70.9% 0.152 210)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#70.8984375,0.15156250000000002,210,100",
+    "$contrast": -54.30966916751457,
+    "$contrastBg": "black"
+  },
+  "Blue/500": {
+    "$value": "#58acf2",
+    "$type": "color",
+    "$description": "oklch(71.88% 0.152 240)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#71.875,0.15156250000000002,240,100",
+    "$contrast": -54.109529813575655,
+    "$contrastBg": "black"
+  },
+  "Indigo/500": {
+    "$value": "#79a4fe",
+    "$type": "color",
+    "$description": "oklch(72.66% 0.152 260)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#72.65625,0.15156250000000002,260,100",
+    "$contrast": -54.07690053482429,
+    "$contrastBg": "black"
+  },
+  "Violet/500": {
+    "$value": "#989cff",
+    "$type": "color",
+    "$description": "oklch(73.44% 0.152 280)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#73.4375,0.15156250000000002,280,100",
+    "$contrast": -54.21936234477517,
+    "$contrastBg": "black"
+  },
+  "Purple/500": {
+    "$value": "#b394f4",
+    "$type": "color",
+    "$description": "oklch(73.83% 0.152 300)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#73.828125,0.15156250000000002,300,100",
+    "$contrast": -54.00665985274049,
+    "$contrastBg": "black"
+  },
+  "Fuchsia/500": {
+    "$value": "#ca8de1",
+    "$type": "color",
+    "$description": "oklch(74.22% 0.152 320)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#74.21875,0.15156250000000002,320,100",
+    "$contrast": -54.1305852436854,
+    "$contrastBg": "black"
+  },
+  "Pink/500": {
+    "$value": "#dc88c7",
+    "$type": "color",
+    "$description": "oklch(74.41% 0.152 340)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#74.4140625,0.15156250000000002,340,100",
+    "$contrast": -54.23631355548495,
+    "$contrastBg": "black"
+  },
+  "Rose/500": {
+    "$value": "#e886a7",
+    "$type": "color",
+    "$description": "oklch(74.41% 0.152 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#74.4140625,0.15156250000000002,360,100",
+    "$contrast": -54.27682331403544,
+    "$contrastBg": "black"
+  },
+  "Slate/500": {
+    "$value": "#a3a6b5",
+    "$type": "color",
+    "$description": "oklch(72.66% 0.024 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#72.65625,0.024,275,100",
+    "$contrast": -54.19783750926077,
+    "$contrastBg": "black"
+  },
+  "Gray/500": {
+    "$value": "#a4a6b0",
+    "$type": "color",
+    "$description": "oklch(72.66% 0.016 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#72.65625,0.016,275,100",
+    "$contrast": -54.23662255033739,
+    "$contrastBg": "black"
+  },
+  "Zinc/500": {
+    "$value": "#a5a6ab",
+    "$type": "color",
+    "$description": "oklch(72.66% 0.008 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#72.65625,0.008,275,100",
+    "$contrast": -54.27268573473225,
+    "$contrastBg": "black"
+  },
+  "Neutral/500": {
+    "$value": "#a6a6a6",
+    "$type": "color",
+    "$description": "oklch(72.66% 0 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#72.65625,0,0,100",
+    "$contrast": -54.30607569833443,
+    "$contrastBg": "black"
+  },
+  "Stone/500": {
+    "$value": "#a9a6a2",
+    "$type": "color",
+    "$description": "oklch(72.66% 0.008 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#72.65625,0.008,75,100",
+    "$contrast": -54.277587527938586,
+    "$contrastBg": "black"
+  },
+  "Sand/500": {
+    "$value": "#aaa69f",
+    "$type": "color",
+    "$description": "oklch(72.66% 0.012 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#72.65625,0.012,75,100",
+    "$contrast": -54.26256623743973,
+    "$contrastBg": "black"
+  },
+  "Olive/500": {
+    "$value": "#a5a7a2",
+    "$type": "color",
+    "$description": "oklch(72.46% 0.008 120)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#72.4609375,0.008,120,100",
+    "$contrast": -54.0777785175337,
+    "$contrastBg": "black"
+  },
+  "Mauve/500": {
+    "$value": "#a8a5a9",
+    "$type": "color",
+    "$description": "oklch(72.66% 0.008 325)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#72.65625,0.008,325,100",
+    "$contrast": -54.156435152633364,
+    "$contrastBg": "black"
+  },
+  "Red/600": {
+    "$value": "#c06868",
+    "$type": "color",
+    "$description": "oklch(62.7% 0.136 20)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#62.6953125,0.13593750000000002,20,100",
+    "$contrast": 65.02541749577321,
+    "$contrastBg": "white"
+  },
+  "Orange/600": {
+    "$value": "#bc6d47",
+    "$type": "color",
+    "$description": "oklch(62.3% 0.136 43.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#62.3046875,0.13593750000000002,43.33333333333333,100",
+    "$contrast": 65.14074812344163,
+    "$contrastBg": "white"
+  },
+  "Amber/600": {
+    "$value": "#b17629",
+    "$type": "color",
+    "$description": "oklch(61.91% 0.136 66.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#61.9140625,0.13593750000000002,66.66666666666666,100",
+    "$contrast": 65.02944917472537,
+    "$contrastBg": "white"
+  },
+  "Yellow/600": {
+    "$value": "#9d8018",
+    "$type": "color",
+    "$description": "oklch(61.13% 0.136 90)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#61.1328125,0.13593750000000002,90,100",
+    "$contrast": 65.27236855522645,
+    "$contrastBg": "white"
+  },
+  "Lime/600": {
+    "$value": "#8c8721",
+    "$type": "color",
+    "$description": "oklch(60.74% 0.136 106.67)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#60.7421875,0.13593750000000002,106.66666666666667,100",
+    "$contrast": 65.15280137330909,
+    "$contrastBg": "white"
+  },
+  "Green/600": {
+    "$value": "#778d35",
+    "$type": "color",
+    "$description": "oklch(60.35% 0.136 123.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#60.3515625,0.13593750000000002,123.33333333333334,100",
+    "$contrast": 65.02881124358933,
+    "$contrastBg": "white"
+  },
+  "Emerald/600": {
+    "$value": "#60914a",
+    "$type": "color",
+    "$description": "oklch(59.77% 0.136 140)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#59.765625,0.13593750000000002,140,100",
+    "$contrast": 65.232094204009,
+    "$contrastBg": "white"
+  },
+  "Teal/600": {
+    "$value": "#419466",
+    "$type": "color",
+    "$description": "oklch(59.38% 0.136 160)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#59.375,0.13593750000000002,160,100",
+    "$contrast": 65.19254231703358,
+    "$contrastBg": "white"
+  },
+  "Cyan/600": {
+    "$value": "#1e9481",
+    "$type": "color",
+    "$description": "oklch(59.18% 0.136 180)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#59.1796875,0.13593750000000002,180,100",
+    "$contrast": 65.15085030871639,
+    "$contrastBg": "white"
+  },
+  "Sky/600": {
+    "$value": "#0690a8",
+    "$type": "color",
+    "$description": "oklch(59.57% 0.136 210)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#59.5703125,0.13593750000000002,210,100",
+    "$contrast": 65.02224780987805,
+    "$contrastBg": "white"
+  },
+  "Blue/600": {
+    "$value": "#3e88c5",
+    "$type": "color",
+    "$description": "oklch(60.55% 0.136 240)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#60.546875,0.13593750000000002,240,100",
+    "$contrast": 65.20033241396676,
+    "$contrastBg": "white"
+  },
+  "Indigo/600": {
+    "$value": "#5d82cf",
+    "$type": "color",
+    "$description": "oklch(61.33% 0.136 260)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#61.328125,0.13593750000000002,260,100",
+    "$contrast": 65.15400358344276,
+    "$contrastBg": "white"
+  },
+  "Violet/600": {
+    "$value": "#787acf",
+    "$type": "color",
+    "$description": "oklch(61.91% 0.136 280)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#61.9140625,0.13593750000000002,280,100",
+    "$contrast": 65.22248171615131,
+    "$contrastBg": "white"
+  },
+  "Purple/600": {
+    "$value": "#8f74c7",
+    "$type": "color",
+    "$description": "oklch(62.5% 0.136 300)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#62.5,0.13593750000000002,300,100",
+    "$contrast": 65.03972699552449,
+    "$contrastBg": "white"
+  },
+  "Fuchsia/600": {
+    "$value": "#a36eb6",
+    "$type": "color",
+    "$description": "oklch(62.7% 0.136 320)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#62.6953125,0.13593750000000002,320,100",
+    "$contrast": 65.14442174816371,
+    "$contrastBg": "white"
+  },
+  "Pink/600": {
+    "$value": "#b26aa0",
+    "$type": "color",
+    "$description": "oklch(62.89% 0.136 340)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#62.890625,0.13593750000000002,340,100",
+    "$contrast": 65.00928309039662,
+    "$contrastBg": "white"
+  },
+  "Rose/600": {
+    "$value": "#bb6784",
+    "$type": "color",
+    "$description": "oklch(62.7% 0.136 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#62.6953125,0.13593750000000002,360,100",
+    "$contrast": 65.23481942916776,
+    "$contrastBg": "white"
+  },
+  "Slate/600": {
+    "$value": "#808392",
+    "$type": "color",
+    "$description": "oklch(61.33% 0.024 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#61.328125,0.024,275,100",
+    "$contrast": 65.08985284103788,
+    "$contrastBg": "white"
+  },
+  "Gray/600": {
+    "$value": "#82848d",
+    "$type": "color",
+    "$description": "oklch(61.33% 0.016 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#61.328125,0.016,275,100",
+    "$contrast": 65.05626010999148,
+    "$contrastBg": "white"
+  },
+  "Zinc/600": {
+    "$value": "#838489",
+    "$type": "color",
+    "$description": "oklch(61.33% 0.008 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#61.328125,0.008,275,100",
+    "$contrast": 65.02522172335571,
+    "$contrastBg": "white"
+  },
+  "Neutral/600": {
+    "$value": "#838383",
+    "$type": "color",
+    "$description": "oklch(61.13% 0 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#61.1328125,0,0,100",
+    "$contrast": 65.27528381077286,
+    "$contrastBg": "white"
+  },
+  "Stone/600": {
+    "$value": "#86847f",
+    "$type": "color",
+    "$description": "oklch(61.33% 0.008 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#61.328125,0.008,75,100",
+    "$contrast": 65.02095166875134,
+    "$contrastBg": "white"
+  },
+  "Sand/600": {
+    "$value": "#88837d",
+    "$type": "color",
+    "$description": "oklch(61.33% 0.012 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#61.328125,0.012,75,100",
+    "$contrast": 65.03375230935545,
+    "$contrastBg": "white"
+  },
+  "Olive/600": {
+    "$value": "#83847f",
+    "$type": "color",
+    "$description": "oklch(61.13% 0.008 120)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#61.1328125,0.008,120,100",
+    "$contrast": 65.19101350841233,
+    "$contrastBg": "white"
+  },
+  "Mauve/600": {
+    "$value": "#868386",
+    "$type": "color",
+    "$description": "oklch(61.33% 0.008 325)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#61.328125,0.008,325,100",
+    "$contrast": 65.1240140377318,
+    "$contrastBg": "white"
+  },
+  "Red/700": {
+    "$value": "#9b5353",
+    "$type": "color",
+    "$description": "oklch(53.52% 0.116 20)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#53.515625,0.11562500000000003,20,100",
+    "$contrast": 77.04773855355846,
+    "$contrastBg": "white"
+  },
+  "Orange/700": {
+    "$value": "#985738",
+    "$type": "color",
+    "$description": "oklch(53.13% 0.116 43.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#53.125,0.11562500000000003,43.33333333333333,100",
+    "$contrast": 77.21006943591257,
+    "$contrastBg": "white"
+  },
+  "Amber/700": {
+    "$value": "#8e5e1f",
+    "$type": "color",
+    "$description": "oklch(52.73% 0.116 66.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#52.734375,0.11562500000000003,66.66666666666666,100",
+    "$contrast": 77.21132087691367,
+    "$contrastBg": "white"
+  },
+  "Yellow/700": {
+    "$value": "#7f6712",
+    "$type": "color",
+    "$description": "oklch(52.34% 0.116 90)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#52.34375,0.11562500000000003,90,100",
+    "$contrast": 77.0646286738736,
+    "$contrastBg": "white"
+  },
+  "Lime/700": {
+    "$value": "#706c1a",
+    "$type": "color",
+    "$description": "oklch(51.95% 0.116 106.67)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#51.953125,0.11562500000000003,106.66666666666667,100",
+    "$contrast": 77.05774789637464,
+    "$contrastBg": "white"
+  },
+  "Green/700": {
+    "$value": "#607129",
+    "$type": "color",
+    "$description": "oklch(51.56% 0.116 123.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#51.5625,0.11562500000000003,123.33333333333334,100",
+    "$contrast": 77.04215769550812,
+    "$contrastBg": "white"
+  },
+  "Emerald/700": {
+    "$value": "#4c753b",
+    "$type": "color",
+    "$description": "oklch(51.17% 0.116 140)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#51.171875,0.11562500000000003,140,100",
+    "$contrast": 77.05369961104338,
+    "$contrastBg": "white"
+  },
+  "Teal/700": {
+    "$value": "#337751",
+    "$type": "color",
+    "$description": "oklch(50.78% 0.116 160)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#50.78125,0.11562500000000003,160,100",
+    "$contrast": 77.07679014938955,
+    "$contrastBg": "white"
+  },
+  "Cyan/700": {
+    "$value": "#177768",
+    "$type": "color",
+    "$description": "oklch(50.59% 0.116 180)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#50.5859375,0.11562500000000003,180,100",
+    "$contrast": 77.04928461136255,
+    "$contrastBg": "white"
+  },
+  "Sky/700": {
+    "$value": "#057487",
+    "$type": "color",
+    "$description": "oklch(50.78% 0.116 210)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#50.78125,0.11562500000000003,210,100",
+    "$contrast": 77.09901900278953,
+    "$contrastBg": "white"
+  },
+  "Blue/700": {
+    "$value": "#316e9f",
+    "$type": "color",
+    "$description": "oklch(51.76% 0.116 240)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#51.7578125,0.11562500000000003,240,100",
+    "$contrast": 77.09812137325717,
+    "$contrastBg": "white"
+  },
+  "Indigo/700": {
+    "$value": "#4a68a7",
+    "$type": "color",
+    "$description": "oklch(52.34% 0.116 260)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#52.34375,0.11562500000000003,260,100",
+    "$contrast": 77.18284170343075,
+    "$contrastBg": "white"
+  },
+  "Violet/700": {
+    "$value": "#6062a8",
+    "$type": "color",
+    "$description": "oklch(52.93% 0.116 280)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#52.9296875,0.11562500000000003,280,100",
+    "$contrast": 77.13368854942568,
+    "$contrastBg": "white"
+  },
+  "Purple/700": {
+    "$value": "#735da1",
+    "$type": "color",
+    "$description": "oklch(53.32% 0.116 300)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#53.3203125,0.11562500000000003,300,100",
+    "$contrast": 77.1329204497605,
+    "$contrastBg": "white"
+  },
+  "Fuchsia/700": {
+    "$value": "#835893",
+    "$type": "color",
+    "$description": "oklch(53.52% 0.116 320)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#53.515625,0.11562500000000003,320,100",
+    "$contrast": 77.16789703610303,
+    "$contrastBg": "white"
+  },
+  "Pink/700": {
+    "$value": "#8f5480",
+    "$type": "color",
+    "$description": "oklch(53.71% 0.116 340)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#53.7109375,0.11562500000000003,340,100",
+    "$contrast": 77.01787127982264,
+    "$contrastBg": "white"
+  },
+  "Rose/700": {
+    "$value": "#97526a",
+    "$type": "color",
+    "$description": "oklch(53.52% 0.116 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#53.515625,0.11562500000000003,360,100",
+    "$contrast": 77.21222702696048,
+    "$contrastBg": "white"
+  },
+  "Slate/700": {
+    "$value": "#666977",
+    "$type": "color",
+    "$description": "oklch(52.34% 0.024 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#52.34375,0.024,275,100",
+    "$contrast": 77.18626660468453,
+    "$contrastBg": "white"
+  },
+  "Gray/700": {
+    "$value": "#676973",
+    "$type": "color",
+    "$description": "oklch(52.34% 0.016 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#52.34375,0.016,275,100",
+    "$contrast": 77.15617633357041,
+    "$contrastBg": "white"
+  },
+  "Zinc/700": {
+    "$value": "#696a6e",
+    "$type": "color",
+    "$description": "oklch(52.34% 0.008 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#52.34375,0.008,275,100",
+    "$contrast": 77.12849225247562,
+    "$contrastBg": "white"
+  },
+  "Neutral/700": {
+    "$value": "#6a6a6a",
+    "$type": "color",
+    "$description": "oklch(52.34% 0 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#52.34375,0,0,100",
+    "$contrast": 77.10314931184337,
+    "$contrastBg": "white"
+  },
+  "Stone/700": {
+    "$value": "#6c6965",
+    "$type": "color",
+    "$description": "oklch(52.34% 0.008 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#52.34375,0.008,75,100",
+    "$contrast": 77.12459433866206,
+    "$contrastBg": "white"
+  },
+  "Sand/700": {
+    "$value": "#6d6963",
+    "$type": "color",
+    "$description": "oklch(52.34% 0.012 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#52.34375,0.012,75,100",
+    "$contrast": 77.13585931689889,
+    "$contrastBg": "white"
+  },
+  "Olive/700": {
+    "$value": "#696b66",
+    "$type": "color",
+    "$description": "oklch(52.34% 0.008 120)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#52.34375,0.008,120,100",
+    "$contrast": 77.02833478961473,
+    "$contrastBg": "white"
+  },
+  "Mauve/700": {
+    "$value": "#6c686c",
+    "$type": "color",
+    "$description": "oklch(52.34% 0.008 325)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#52.34375,0.008,325,100",
+    "$contrast": 77.21578814231933,
+    "$contrastBg": "white"
+  },
+  "Red/800": {
+    "$value": "#6f3a3a",
+    "$type": "color",
+    "$description": "oklch(41.99% 0.091 20)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.9921875,0.09062500000000001,20,100",
+    "$contrast": 90.02099633850419,
+    "$contrastBg": "white"
+  },
+  "Orange/800": {
+    "$value": "#6d3d26",
+    "$type": "color",
+    "$description": "oklch(41.8% 0.091 43.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.796875,0.09062500000000001,43.33333333333333,100",
+    "$contrast": 90.01539163518822,
+    "$contrastBg": "white"
+  },
+  "Amber/800": {
+    "$value": "#664214",
+    "$type": "color",
+    "$description": "oklch(41.41% 0.091 66.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.40625,0.09062500000000001,66.66666666666666,100",
+    "$contrast": 90.11978638444505,
+    "$contrastBg": "white"
+  },
+  "Yellow/800": {
+    "$value": "#5a480a",
+    "$type": "color",
+    "$description": "oklch(41.02% 0.091 90)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#41.015625,0.09062500000000001,90,100",
+    "$contrast": 90.13326119580633,
+    "$contrastBg": "white"
+  },
+  "Lime/800": {
+    "$value": "#504d10",
+    "$type": "color",
+    "$description": "oklch(40.82% 0.091 106.67)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#40.8203125,0.09062500000000001,106.66666666666667,100",
+    "$contrast": 90.02733606191362,
+    "$contrastBg": "white"
+  },
+  "Green/800": {
+    "$value": "#43501b",
+    "$type": "color",
+    "$description": "oklch(40.43% 0.091 123.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#40.4296875,0.09062500000000001,123.33333333333334,100",
+    "$contrast": 90.11094835425607,
+    "$contrastBg": "white"
+  },
+  "Emerald/800": {
+    "$value": "#355228",
+    "$type": "color",
+    "$description": "oklch(40.04% 0.091 140)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#40.0390625,0.09062500000000001,140,100",
+    "$contrast": 90.19791377005234,
+    "$contrastBg": "white"
+  },
+  "Teal/800": {
+    "$value": "#225438",
+    "$type": "color",
+    "$description": "oklch(39.84% 0.091 160)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#39.84375,0.09062500000000001,160,100",
+    "$contrast": 90.06740626413267,
+    "$contrastBg": "white"
+  },
+  "Cyan/800": {
+    "$value": "#0d5449",
+    "$type": "color",
+    "$description": "oklch(39.65% 0.091 180)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#39.6484375,0.09062500000000001,180,100",
+    "$contrast": 90.04440042281617,
+    "$contrastBg": "white"
+  },
+  "Sky/800": {
+    "$value": "#035260",
+    "$type": "color",
+    "$description": "oklch(39.84% 0.091 210)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#39.84375,0.09062500000000001,210,100",
+    "$contrast": 90.00520699220517,
+    "$contrastBg": "white"
+  },
+  "Blue/800": {
+    "$value": "#214d72",
+    "$type": "color",
+    "$description": "oklch(40.63% 0.091 240)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#40.625,0.09062500000000001,240,100",
+    "$contrast": 90.05249779473152,
+    "$contrastBg": "white"
+  },
+  "Indigo/800": {
+    "$value": "#334978",
+    "$type": "color",
+    "$description": "oklch(41.21% 0.091 260)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.2109375,0.09062500000000001,260,100",
+    "$contrast": 90.00437155447304,
+    "$contrastBg": "white"
+  },
+  "Violet/800": {
+    "$value": "#434578",
+    "$type": "color",
+    "$description": "oklch(41.6% 0.091 280)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.6015625,0.09062500000000001,280,100",
+    "$contrast": 90.05765471467869,
+    "$contrastBg": "white"
+  },
+  "Purple/800": {
+    "$value": "#514173",
+    "$type": "color",
+    "$description": "oklch(41.8% 0.091 300)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.796875,0.09062500000000001,300,100",
+    "$contrast": 90.17326016210497,
+    "$contrastBg": "white"
+  },
+  "Fuchsia/800": {
+    "$value": "#5d3d69",
+    "$type": "color",
+    "$description": "oklch(41.99% 0.091 320)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.9921875,0.09062500000000001,320,100",
+    "$contrast": 90.14160422080258,
+    "$contrastBg": "white"
+  },
+  "Pink/800": {
+    "$value": "#663a5b",
+    "$type": "color",
+    "$description": "oklch(41.99% 0.091 340)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.9921875,0.09062500000000001,340,100",
+    "$contrast": 90.18627424549935,
+    "$contrastBg": "white"
+  },
+  "Rose/800": {
+    "$value": "#6c394b",
+    "$type": "color",
+    "$description": "oklch(41.99% 0.091 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.9921875,0.09062500000000001,360,100",
+    "$contrast": 90.13669052813903,
+    "$contrastBg": "white"
+  },
+  "Slate/800": {
+    "$value": "#474a57",
+    "$type": "color",
+    "$description": "oklch(41.21% 0.024 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.2109375,0.024,275,100",
+    "$contrast": 90.07305491246812,
+    "$contrastBg": "white"
+  },
+  "Gray/800": {
+    "$value": "#494a53",
+    "$type": "color",
+    "$description": "oklch(41.21% 0.016 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.2109375,0.016,275,100",
+    "$contrast": 90.04817219622552,
+    "$contrastBg": "white"
+  },
+  "Zinc/800": {
+    "$value": "#4a4b4f",
+    "$type": "color",
+    "$description": "oklch(41.21% 0.008 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.2109375,0.008,275,100",
+    "$contrast": 90.02527270025931,
+    "$contrastBg": "white"
+  },
+  "Neutral/800": {
+    "$value": "#4b4b4b",
+    "$type": "color",
+    "$description": "oklch(41.21% 0 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.2109375,0,0,100",
+    "$contrast": 90.004281784859,
+    "$contrastBg": "white"
+  },
+  "Stone/800": {
+    "$value": "#4d4a47",
+    "$type": "color",
+    "$description": "oklch(41.21% 0.008 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.2109375,0.008,75,100",
+    "$contrast": 90.02180721219936,
+    "$contrastBg": "white"
+  },
+  "Sand/800": {
+    "$value": "#4e4a45",
+    "$type": "color",
+    "$description": "oklch(41.21% 0.012 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.2109375,0.012,75,100",
+    "$contrast": 90.03081617076842,
+    "$contrastBg": "white"
+  },
+  "Olive/800": {
+    "$value": "#4a4b47",
+    "$type": "color",
+    "$description": "oklch(41.02% 0.008 120)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.015625,0.008,120,100",
+    "$contrast": 90.14695719141864,
+    "$contrastBg": "white"
+  },
+  "Mauve/800": {
+    "$value": "#4d4a4d",
+    "$type": "color",
+    "$description": "oklch(41.21% 0.008 325)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#41.2109375,0.008,325,100",
+    "$contrast": 90.09729085509426,
+    "$contrastBg": "white"
+  },
+  "Red/900": {
+    "$value": "#462322",
+    "$type": "color",
+    "$description": "oklch(30.66% 0.066 20)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.6640625,0.06562500000000002,20,100",
+    "$contrast": 100.03748420729414,
+    "$contrastBg": "white"
+  },
+  "Orange/900": {
+    "$value": "#452515",
+    "$type": "color",
+    "$description": "oklch(30.47% 0.066 43.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.46875,0.06562500000000002,43.33333333333333,100",
+    "$contrast": 100.07379779667198,
+    "$contrastBg": "white"
+  },
+  "Amber/900": {
+    "$value": "#402809",
+    "$type": "color",
+    "$description": "oklch(30.27% 0.066 66.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.2734375,0.06562500000000002,66.66666666666666,100",
+    "$contrast": 100.08102313561416,
+    "$contrastBg": "white"
+  },
+  "Yellow/900": {
+    "$value": "#382c05",
+    "$type": "color",
+    "$description": "oklch(30.08% 0.066 90)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#30.078125,0.06562500000000002,90,100",
+    "$contrast": 100.04982363521971,
+    "$contrastBg": "white"
+  },
+  "Lime/900": {
+    "$value": "#312f07",
+    "$type": "color",
+    "$description": "oklch(29.88% 0.066 106.67)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#29.8828125,0.06562500000000002,106.66666666666667,100",
+    "$contrast": 100.04914088511292,
+    "$contrastBg": "white"
+  },
+  "Green/900": {
+    "$value": "#29320e",
+    "$type": "color",
+    "$description": "oklch(29.69% 0.066 123.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#29.6875,0.06562500000000002,123.33333333333334,100",
+    "$contrast": 100.034083953633,
+    "$contrastBg": "white"
+  },
+  "Emerald/900": {
+    "$value": "#203417",
+    "$type": "color",
+    "$description": "oklch(29.49% 0.066 140)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#29.4921875,0.06562500000000002,140,100",
+    "$contrast": 100.00819220640568,
+    "$contrastBg": "white"
+  },
+  "Teal/900": {
+    "$value": "#133422",
+    "$type": "color",
+    "$description": "oklch(29.1% 0.066 160)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#29.1015625,0.06562500000000002,160,100",
+    "$contrast": 100.08563979712466,
+    "$contrastBg": "white"
+  },
+  "Cyan/900": {
+    "$value": "#06342c",
+    "$type": "color",
+    "$description": "oklch(28.91% 0.066 180)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#28.90625,0.06562500000000002,180,100",
+    "$contrast": 100.0673506706254,
+    "$contrastBg": "white"
+  },
+  "Sky/900": {
+    "$value": "#02333c",
+    "$type": "color",
+    "$description": "oklch(29.1% 0.066 210)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#29.1015625,0.06562500000000002,210,100",
+    "$contrast": 100.00216958419865,
+    "$contrastBg": "white"
+  },
+  "Blue/900": {
+    "$value": "#123048",
+    "$type": "color",
+    "$description": "oklch(29.69% 0.066 240)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#29.6875,0.06562500000000002,240,100",
+    "$contrast": 100.05343873750738,
+    "$contrastBg": "white"
+  },
+  "Indigo/900": {
+    "$value": "#1e2d4c",
+    "$type": "color",
+    "$description": "oklch(30.08% 0.066 260)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.078125,0.06562500000000002,260,100",
+    "$contrast": 100.07986167662324,
+    "$contrastBg": "white"
+  },
+  "Violet/900": {
+    "$value": "#292a4d",
+    "$type": "color",
+    "$description": "oklch(30.47% 0.066 280)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.46875,0.06562500000000002,280,100",
+    "$contrast": 100.0457111708373,
+    "$contrastBg": "white"
+  },
+  "Purple/900": {
+    "$value": "#332749",
+    "$type": "color",
+    "$description": "oklch(30.66% 0.066 300)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.6640625,0.06562500000000002,300,100",
+    "$contrast": 100.06388369377855,
+    "$contrastBg": "white"
+  },
+  "Fuchsia/900": {
+    "$value": "#3b2543",
+    "$type": "color",
+    "$description": "oklch(30.86% 0.066 320)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.859375,0.06562500000000002,320,100",
+    "$contrast": 100.00470003356303,
+    "$contrastBg": "white"
+  },
+  "Pink/900": {
+    "$value": "#412339",
+    "$type": "color",
+    "$description": "oklch(30.86% 0.066 340)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.859375,0.06562500000000002,340,100",
+    "$contrast": 100.01038830080356,
+    "$contrastBg": "white"
+  },
+  "Rose/900": {
+    "$value": "#44222e",
+    "$type": "color",
+    "$description": "oklch(30.66% 0.066 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.6640625,0.06562500000000002,360,100",
+    "$contrast": 100.0994333736996,
+    "$contrastBg": "white"
+  },
+  "Slate/900": {
+    "$value": "#2b2e3a",
+    "$type": "color",
+    "$description": "oklch(30.27% 0.024 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.2734375,0.024,275,100",
+    "$contrast": 100.04086481071279,
+    "$contrastBg": "white"
+  },
+  "Gray/900": {
+    "$value": "#2c2e36",
+    "$type": "color",
+    "$description": "oklch(30.27% 0.016 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.2734375,0.016,275,100",
+    "$contrast": 100.0264276893124,
+    "$contrastBg": "white"
+  },
+  "Zinc/900": {
+    "$value": "#2d2e32",
+    "$type": "color",
+    "$description": "oklch(30.27% 0.008 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.2734375,0.008,275,100",
+    "$contrast": 100.01265386923852,
+    "$contrastBg": "white"
+  },
+  "Neutral/900": {
+    "$value": "#2e2e2e",
+    "$type": "color",
+    "$description": "oklch(30.08% 0 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.078125,0,0,100",
+    "$contrast": 100.13007709368293,
+    "$contrastBg": "white"
+  },
+  "Stone/900": {
+    "$value": "#302e2b",
+    "$type": "color",
+    "$description": "oklch(30.27% 0.008 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.2734375,0.008,75,100",
+    "$contrast": 100.01004301464414,
+    "$contrastBg": "white"
+  },
+  "Sand/900": {
+    "$value": "#312e29",
+    "$type": "color",
+    "$description": "oklch(30.27% 0.012 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.2734375,0.012,75,100",
+    "$contrast": 100.01493394582421,
+    "$contrastBg": "white"
+  },
+  "Olive/900": {
+    "$value": "#2e2f2b",
+    "$type": "color",
+    "$description": "oklch(30.08% 0.008 120)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.078125,0.008,120,100",
+    "$contrast": 100.09043576924019,
+    "$contrastBg": "white"
+  },
+  "Mauve/900": {
+    "$value": "#302d30",
+    "$type": "color",
+    "$description": "oklch(30.27% 0.008 325)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#30.2734375,0.008,325,100",
+    "$contrast": 100.05827635089075,
+    "$contrastBg": "white"
+  },
+  "Red/950": {
+    "$value": "#210d0d",
+    "$type": "color",
+    "$description": "oklch(19.34% 0.041 20)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.3359375,0.04062500000000001,20,100",
+    "$contrast": 105.00737073362455,
+    "$contrastBg": "white"
+  },
+  "Orange/950": {
+    "$value": "#200e06",
+    "$type": "color",
+    "$description": "oklch(19.14% 0.041 43.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.140625,0.04062500000000001,43.33333333333333,100",
+    "$contrast": 105.03557878707173,
+    "$contrastBg": "white"
+  },
+  "Amber/950": {
+    "$value": "#1e1103",
+    "$type": "color",
+    "$description": "oklch(19.14% 0.041 66.67)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.140625,0.04062500000000001,66.66666666666666,100",
+    "$contrast": 105.02376430491844,
+    "$contrastBg": "white"
+  },
+  "Yellow/950": {
+    "$value": "#1a1302",
+    "$type": "color",
+    "$description": "oklch(19.14% 0.041 90)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#19.140625,0.04062500000000001,90,100",
+    "$contrast": 105.0064569261148,
+    "$contrastBg": "white"
+  },
+  "Lime/950": {
+    "$value": "#161502",
+    "$type": "color",
+    "$description": "oklch(18.95% 0.041 106.67)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#18.9453125,0.04062500000000001,106.66666666666667,100",
+    "$contrast": 105.0319935582142,
+    "$contrastBg": "white"
+  },
+  "Green/950": {
+    "$value": "#111604",
+    "$type": "color",
+    "$description": "oklch(18.75% 0.041 123.33)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#18.75,0.04062500000000001,123.33333333333334,100",
+    "$contrast": 105.04706692174135,
+    "$contrastBg": "white"
+  },
+  "Emerald/950": {
+    "$value": "#0c1708",
+    "$type": "color",
+    "$description": "oklch(18.75% 0.041 140)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#18.75,0.04062500000000001,140,100",
+    "$contrast": 105.00501327618079,
+    "$contrastBg": "white"
+  },
+  "Teal/950": {
+    "$value": "#06170d",
+    "$type": "color",
+    "$description": "oklch(18.36% 0.041 160)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#18.359375,0.04062500000000001,160,100",
+    "$contrast": 105.03734811883656,
+    "$contrastBg": "white"
+  },
+  "Cyan/950": {
+    "$value": "#021713",
+    "$type": "color",
+    "$description": "oklch(18.16% 0.041 180)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#18.1640625,0.04062500000000001,180,100",
+    "$contrast": 105.03402113575149,
+    "$contrastBg": "white"
+  },
+  "Sky/950": {
+    "$value": "#01161b",
+    "$type": "color",
+    "$description": "oklch(18.16% 0.041 210)",
+    "$isP3": true,
+    "$link": "https://oklch.com/#18.1640625,0.04062500000000001,210,100",
+    "$contrast": 105.04493617070587,
+    "$contrastBg": "white"
+  },
+  "Blue/950": {
+    "$value": "#051522",
+    "$type": "color",
+    "$description": "oklch(18.75% 0.041 240)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#18.75,0.04062500000000001,240,100",
+    "$contrast": 105.0141139214867,
+    "$contrastBg": "white"
+  },
+  "Indigo/950": {
+    "$value": "#0b1425",
+    "$type": "color",
+    "$description": "oklch(19.14% 0.041 260)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.140625,0.04062500000000001,260,100",
+    "$contrast": 105.0045426031418,
+    "$contrastBg": "white"
+  },
+  "Violet/950": {
+    "$value": "#111225",
+    "$type": "color",
+    "$description": "oklch(19.34% 0.041 280)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.3359375,0.04062500000000001,280,100",
+    "$contrast": 105.01756278227342,
+    "$contrastBg": "white"
+  },
+  "Purple/950": {
+    "$value": "#171123",
+    "$type": "color",
+    "$description": "oklch(19.53% 0.041 300)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.53125,0.04062500000000001,300,100",
+    "$contrast": 105.00400332922106,
+    "$contrastBg": "white"
+  },
+  "Fuchsia/950": {
+    "$value": "#1b0f1f",
+    "$type": "color",
+    "$description": "oklch(19.53% 0.041 320)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.53125,0.04062500000000001,320,100",
+    "$contrast": 105.01338514320044,
+    "$contrastBg": "white"
+  },
+  "Pink/950": {
+    "$value": "#1e0e1a",
+    "$type": "color",
+    "$description": "oklch(19.53% 0.041 340)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.53125,0.04062500000000001,340,100",
+    "$contrast": 105.00281049690973,
+    "$contrastBg": "white"
+  },
+  "Rose/950": {
+    "$value": "#200d14",
+    "$type": "color",
+    "$description": "oklch(19.34% 0.041 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.3359375,0.04062500000000001,360,100",
+    "$contrast": 105.02838853707594,
+    "$contrastBg": "white"
+  },
+  "Slate/950": {
+    "$value": "#12141e",
+    "$type": "color",
+    "$description": "oklch(19.34% 0.024 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.3359375,0.024,275,100",
+    "$contrast": 105.01109237093064,
+    "$contrastBg": "white"
+  },
+  "Gray/950": {
+    "$value": "#13141b",
+    "$type": "color",
+    "$description": "oklch(19.34% 0.016 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.3359375,0.016,275,100",
+    "$contrast": 105.01075205784987,
+    "$contrastBg": "white"
+  },
+  "Zinc/950": {
+    "$value": "#141418",
+    "$type": "color",
+    "$description": "oklch(19.34% 0.008 275)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.3359375,0.008,275,100",
+    "$contrast": 105.00850985211243,
+    "$contrastBg": "white"
+  },
+  "Neutral/950": {
+    "$value": "#141414",
+    "$type": "color",
+    "$description": "oklch(19.34% 0 0)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.3359375,0,0,100",
+    "$contrast": 105.00448594777328,
+    "$contrastBg": "white"
+  },
+  "Stone/950": {
+    "$value": "#161411",
+    "$type": "color",
+    "$description": "oklch(19.34% 0.008 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.3359375,0.008,75,100",
+    "$contrast": 105.006859176124,
+    "$contrastBg": "white"
+  },
+  "Sand/950": {
+    "$value": "#17140f",
+    "$type": "color",
+    "$description": "oklch(19.34% 0.012 75)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.3359375,0.012,75,100",
+    "$contrast": 105.00663941842876,
+    "$contrastBg": "white"
+  },
+  "Olive/950": {
+    "$value": "#141511",
+    "$type": "color",
+    "$description": "oklch(19.14% 0.008 120)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.140625,0.008,120,100",
+    "$contrast": 105.03812366434045,
+    "$contrastBg": "white"
+  },
+  "Mauve/950": {
+    "$value": "#161316",
+    "$type": "color",
+    "$description": "oklch(19.34% 0.008 325)",
+    "$isP3": false,
+    "$link": "https://oklch.com/#19.3359375,0.008,325,100",
+    "$contrast": 105.0252618531462,
+    "$contrastBg": "white"
+  }
+}

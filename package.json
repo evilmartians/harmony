@@ -7,6 +7,9 @@
   "exports": {
     "./*": "./dist/*.js"
   },
+  "files": [
+    "dist/*"
+  ],
   "keywords": [
     "colors", "palette", "tailwind"
   ],
