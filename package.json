@@ -1,14 +1,22 @@
 {
   "name": "@evilmartians/harmony",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "scripts": {
     "build": "deno task build",
     "prepublishOnly": "npm run build"
   },
   "main": "dist/index.js",
   "exports": {
-    "./tailwind": "./dist/tailwind/index.js",
-    "./base": "./dist/base/index.js"
+    "./tailwind": {
+      "import": "./dist/tailwind/index.js",
+      "require": "./dist/tailwind/index.mjs",
+      "types": "./dist/tailwind/index.d.ts"
+    },
+    "./base": {
+      "import": "./dist/base/index.mjs",
+      "require": "./dist/base/index.js",
+      "types": "./dist/base/index.d.ts"
+    }
   },
   "files": [
     "dist/*"
@@ -23,8 +31,5 @@
     "type": "git",
     "url": "git+https://github.com/evilmartians/harmony.git"
   },
-  "license": "MIT",
-  "dependencies": {
-    "@evilmartians/harmony": "link:/Users/ivv/projects/evil-martians/harmony-palette/harmony"
-  }
+  "license": "MIT"
 }

@@ -1,6 +1,6 @@
 import type { ExportTarget, Palette } from "../build.ts";
 import { assert, path } from "../deps.ts";
-import { makeCJS } from "../utils.ts";
+import { generateCJS, generateEsm, generateTypes } from "../utils.ts";
 
 export const buildTailwindPalette: ExportTarget = async (
   { palette, targetDir },
@@ -14,8 +14,16 @@ export const buildTailwindPalette: ExportTarget = async (
     ...addAlphaChannel(palette),
   };
 
-  const content = makeCJS(twPalette);
+  const content = generateCJS(twPalette);
   await Deno.writeTextFile(path.join(targetDir, "index.js"), content);
+  await Deno.writeTextFile(
+    path.join(targetDir, "index.mjs"),
+    generateEsm(twPalette),
+  );
+  await Deno.writeTextFile(
+    path.join(targetDir, "index.d.ts"),
+    generateTypes(twPalette),
+  );
 };
 
 /**
@@ -28,7 +36,10 @@ function addAlphaChannel(palette: Palette) {
   for (const [name, shades] of Object.entries(palette)) {
     for (const [shade, color] of Object.entries(shades)) {
       const val = color.match(/oklch\((.*?)\)/);
-      assert(val?.length === 2 && val[1], `Invalid oklch value for ${name}-${shade}`);
+      assert(
+        val?.length === 2 && val[1],
+        `Invalid oklch value for ${name}-${shade}`,
+      );
       palette[name][shade] = `oklch(${val[1]} / <alpha-value>)`;
     }
   }

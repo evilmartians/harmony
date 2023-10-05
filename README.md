@@ -1,6 +1,11 @@
 # Harmony: Accessible UI Color Palette
 
-The [Harmony palette](https://www.figma.com/community/file/1287828769207775946/harmony-accessible-ui-color-palette) is designed to elevate control over color contrast in your design system. With the OKLCH color space and the innovative APCA contrast algorithm, Harmony offers highly consistent color shades, previously unavailable P3 gamut colors, and precise control over text and UI element contrast.
+The
+[Harmony palette](https://www.figma.com/community/file/1287828769207775946/harmony-accessible-ui-color-palette)
+is designed to elevate control over color contrast in your design system. With
+the OKLCH color space and the innovative APCA contrast algorithm, Harmony offers
+highly consistent color shades, previously unavailable P3 gamut colors, and
+precise control over text and UI element contrast.
 
 ## Installation
 
@@ -47,4 +52,10 @@ export default {
 
 ## Other formats
 
-Plain javascript object with colors without tailwind's specifics can be imported from `@evilmartians/harmony/base`
+Plain javascript object with colors without tailwind's specifics can be imported
+from `@evilmartians/harmony/base`
+
+```js
+import palette from "@evilmartians/harmony/base";
+console.log(palette.red["50"]); // => oklch(0.988281 0.0046875 20)
+```
