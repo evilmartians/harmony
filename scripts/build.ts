@@ -6,7 +6,7 @@ import { buildBasicPalette } from "./targets/base.ts";
 // Config
 //
 const SOURCE_FILE = "./source.json";
-const DEST_DIR = path.join(Deno.cwd(), "dest");
+const DIST_DIR = path.join(Deno.cwd(), "dist");
 
 //
 // Export targets
@@ -49,11 +49,11 @@ export type ExportTarget = (args: {
 //
 // Main
 //
-await createDistDir(DEST_DIR);
+await createDistDir(DIST_DIR);
 const palette = await loadPalette(SOURCE_FILE);
 await Promise.all(
   TARGETS.map(({ targetDir, target }) =>
-    runExportTarget(path.join(DEST_DIR, targetDir), target, palette)
+    runExportTarget(path.join(DIST_DIR, targetDir), target, palette)
   ),
 );
 

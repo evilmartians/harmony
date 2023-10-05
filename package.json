@@ -4,6 +4,7 @@
   "scripts": {
     "build": "deno task build"
   },
+  "main": "dist/index.js",
   "exports": {
     "./*": "./dist/*.js"
   },
@@ -14,5 +15,9 @@
     "colors", "palette", "tailwind"
   ],
   "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evilmartians/harmony.git"
+  },
   "license": "MIT"
 }
