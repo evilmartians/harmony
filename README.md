@@ -1,14 +1,16 @@
 # Harmony: Accessible UI Color Palette
 
+The [Harmony palette](https://www.figma.com/community/file/1287828769207775946/harmony-accessible-ui-color-palette) is designed to elevate control over color contrast in your design system. With the OKLCH color space and the innovative APCA contrast algorithm, Harmony offers highly consistent color shades, previously unavailable P3 gamut colors, and precise control over text and UI element contrast.
+
 ## Installation
 
 ```shell
 npm install @evilmartians/harmony
 ```
 
-## Usage
+## Usage with Tailwind
 
-Harmony can work as drop-in replacement for the Tailwind color palette
+Harmony can work as drop-in replacement for the Tailwind color palette:
 
 ```js
 // tailwind.config.js
@@ -23,11 +25,9 @@ export default {
 };
 ```
 
-## Polyfill
+> ⚠️ Harmony uses `oklch` colors and so requires a polyfill
 
-⚠️ Harmony uses `oklch` colors and requires a polyfill.
-
-1. Install postcss plugin that polyfills oklch colors
+1. Install PostCSS plugin that polyfills oklch colors
 
 ```shell
 npm install -D @csstools/postcss-oklab-function
@@ -44,3 +44,7 @@ export default {
     },
 }
 ```
+
+## Other formats
+
+Plain javascript object with colors without tailwind's specifics can be imported from `@evilmartians/harmony/base`
