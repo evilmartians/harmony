@@ -1,23 +1,29 @@
 {
   "name": "@evilmartians/harmony",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "scripts": {
-    "build": "deno task build"
+    "build": "deno task build",
+    "prepublishOnly": "npm run build"
   },
   "main": "dist/index.js",
   "exports": {
-    "./*": "./dist/*.js"
+    "./tailwind": "./dist/tailwind/index.js"
   },
   "files": [
     "dist/*"
   ],
   "keywords": [
-    "colors", "palette", "tailwind"
+    "colors",
+    "palette",
+    "tailwind"
   ],
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/evilmartians/harmony.git"
+    "url": "git+https://github.com/evilmartians/harmony.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@evilmartians/harmony": "link:/Users/ivv/projects/evil-martians/harmony-palette/harmony"
+  }
 }

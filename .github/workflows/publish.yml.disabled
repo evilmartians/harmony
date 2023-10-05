@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 jobs:
-  goreleaser:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - name: Setup repo
