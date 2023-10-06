@@ -2,15 +2,20 @@
 
 # Harmony: Accessible UI Color Palette
 
-The [Harmony palette](https://www.figma.com/community/file/1287828769207775946/harmony-accessible-ui-color-palette)
+The
+[Harmony palette](https://www.figma.com/community/file/1287828769207775946/harmony-accessible-ui-color-palette)
 is designed to elevate control over color contrast in your design system. With
 the OKLCH color space and the innovative APCA contrast algorithm, Harmony offers
 highly consistent color shades, previously unavailable P3 gamut colors, and
 precise control over text and UI element contrast.
 
-<img src="https://cdn.evilmartians.com/badges/logo-no-label.svg" alt="" width="22" height="16" />  Made by <b><a href="https://evilmartians.com/devtools?utm_source=harmony&utm_campaign=devtools-button&utm_medium=github">Evil Martians</a></b>, product consulting for <b>developer tools</b>.
+<img src="https://cdn.evilmartians.com/badges/logo-no-label.svg" alt="" width="22" height="16" />  Made
+by
+<b><a href="https://evilmartians.com/devtools?utm_source=harmony&utm_campaign=devtools-button&utm_medium=github">Evil
+Martians</a></b>, product consulting for <b>developer tools</b>.
 
 ## Features
+
 - Equal contrast within lightness groups
 - Mirrored contrast pairs
 - Contrast levels for readability
@@ -57,6 +62,18 @@ export default {
 +        '@csstools/postcss-oklab-function': { 'preserve': true },
         autoprefixer: {},
     },
+}
+```
+
+## Vanilla CSS
+
+Harmony palette provides a set of files with css variables. Each file contains all shades for one color in OKLCH with RGB fallbacks for old browsers. Just import colors you need and use them in css:
+
+```css
+@import '@evilmartians/harmony/css/orange.css';
+
+h1 {
+  color: var(--orange-600);
 }
 ```
 

@@ -1,0 +1,59 @@
+export const snapshot = {};
+
+snapshot[`Tailwind export target 1`] = `
+\`'use strict';
+module.exports = {
+  "inherit": "inherit",
+  "current": "currentColor",
+  "transparent": "transparent",
+  "black": "#000",
+  "white": "#fff",
+  "red": {
+    "100": "oklch(0.966797 0.0171875 20 / <alpha-value>)",
+    "500": "oklch(0.742188 0.151562 20 / <alpha-value>)"
+  },
+  "orange": {
+    "100": "oklch(0.966797 0.0171875 43.3333 / <alpha-value>)"
+  }
+};
+Object.defineProperty(exports, '__esModule', { value: true });
+\`
+`;
+
+snapshot[`Tailwind export target 2`] = `
+'
+  export default {
+  "inherit": "inherit",
+  "current": "currentColor",
+  "transparent": "transparent",
+  "black": "#000",
+  "white": "#fff",
+  "red": {
+    "100": "oklch(0.966797 0.0171875 20 / <alpha-value>)",
+    "500": "oklch(0.742188 0.151562 20 / <alpha-value>)"
+  },
+  "orange": {
+    "100": "oklch(0.966797 0.0171875 43.3333 / <alpha-value>)"
+  }
+};
+'
+`;
+
+snapshot[`Tailwind export target 3`] = `
+"declare namespace _default {
+  let inherit: string;
+  let current: string;
+  let transparent: string;
+  let black: string;
+  let white: string;
+  let red: {
+    100: string;
+    500: string;
+  };
+  let orange: {
+    100: string;
+  };
+}
+export default _default;
+"
+`;

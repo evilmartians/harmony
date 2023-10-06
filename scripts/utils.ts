@@ -1,10 +1,25 @@
 // deno-lint-ignore-file no-explicit-any
 
+import { PaletteWithFallback } from "./types.ts";
+
+/**
+ * Removes fallback from palette and simplifies strucutre
+ */
+export function simplifyPalette(palette: PaletteWithFallback) {
+  const result: Record<string, Record<string, string>> = {};
+  for (const [key, value] of Object.entries(palette)) {
+    result[key] = {};
+    for (const [shade, shadeValue] of Object.entries(value)) {
+      result[key][shade] = shadeValue.oklch;
+    }
+  }
+  return result;
+}
+
 export function generateCJS(content: any) {
   return `'use strict';
-Object.defineProperty(exports, '__esModule', { value: true });
-
 module.exports = ${JSON.stringify(content, null, 2)};
+Object.defineProperty(exports, '__esModule', { value: true });
 `;
 }
 

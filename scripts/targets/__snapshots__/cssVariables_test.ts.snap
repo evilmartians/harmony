@@ -1,0 +1,33 @@
+export const snapshot = {};
+
+snapshot[`generateCssVars export target 1`] = `
+":root {
+  --red-100: #fff0ef;
+  --red-500: #fc8083;
+}
+
+@supports (color: oklch(0% 0 0)) {
+  @media (color-gamut: p3) {
+    :root {
+      --red-100: oklch(0.966797 0.0171875 20);
+      --red-500: oklch(0.742188 0.151562 20);
+    }
+  }
+}
+"
+`;
+
+snapshot[`generateCssVars export target 2`] = `
+":root {
+  --orange-100: #fff1eb;
+}
+
+@supports (color: oklch(0% 0 0)) {
+  @media (color-gamut: p3) {
+    :root {
+      --orange-100: oklch(0.966797 0.0171875 43.3333);
+    }
+  }
+}
+"
+`;

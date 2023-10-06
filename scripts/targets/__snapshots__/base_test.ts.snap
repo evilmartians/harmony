@@ -1,0 +1,44 @@
+export const snapshot = {};
+
+snapshot[`base export 1`] = `
+\`'use strict';
+module.exports = {
+  "red": {
+    "100": "oklch(0.966797 0.0171875 20)",
+    "500": "oklch(0.742188 0.151562 20)"
+  },
+  "orange": {
+    "100": "oklch(0.966797 0.0171875 43.3333)"
+  }
+};
+Object.defineProperty(exports, '__esModule', { value: true });
+\`
+`;
+
+snapshot[`base export 2`] = `
+'
+  export default {
+  "red": {
+    "100": "oklch(0.966797 0.0171875 20)",
+    "500": "oklch(0.742188 0.151562 20)"
+  },
+  "orange": {
+    "100": "oklch(0.966797 0.0171875 43.3333)"
+  }
+};
+'
+`;
+
+snapshot[`base export 3`] = `
+"declare namespace _default {
+  let red: {
+    100: string;
+    500: string;
+  };
+  let orange: {
+    100: string;
+  };
+}
+export default _default;
+"
+`;

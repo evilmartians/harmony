@@ -1,10 +1,16 @@
-import type { ExportTarget } from "../build.ts";
+import type { ExportTarget } from "../types.ts";
 import { path } from "../deps.ts";
-import { generateCJS, generateEsm, generateTypes } from "../utils.ts";
+import {
+  generateCJS,
+  generateEsm,
+  generateTypes,
+  simplifyPalette,
+} from "../utils.ts";
 
 export const buildBasicPalette: ExportTarget = async (
-  { palette, targetDir },
+  { palette: paletteWithFallback, targetDir },
 ) => {
+  const palette = simplifyPalette(paletteWithFallback);
   const content = generateCJS(palette);
   await Deno.writeTextFile(path.join(targetDir, "index.js"), content);
   await Deno.writeTextFile(

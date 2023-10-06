@@ -1,5 +1,7 @@
 {
   "tasks": {
-    "build": "deno run --allow-read --allow-write scripts/build.ts"
+    "build": "deno run --allow-read --allow-write scripts/build.ts",
+    "test": "deno test --allow-read --allow-write",
+    "update-snapshots": "deno test --allow-read --allow-write -- --update"
   }
 }

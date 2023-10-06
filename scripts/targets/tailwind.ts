@@ -1,10 +1,16 @@
-import type { ExportTarget, Palette } from "../build.ts";
+import type { ExportTarget, SimplePalette } from "../types.ts";
 import { assert, path } from "../deps.ts";
-import { generateCJS, generateEsm, generateTypes } from "../utils.ts";
+import {
+  generateCJS,
+  generateEsm,
+  generateTypes,
+  simplifyPalette,
+} from "../utils.ts";
 
 export const buildTailwindPalette: ExportTarget = async (
-  { palette, targetDir },
+  { palette: paletteWithFallback, targetDir },
 ) => {
+  const palette = simplifyPalette(paletteWithFallback);
   const twPalette = {
     inherit: "inherit",
     current: "currentColor",
@@ -30,7 +36,7 @@ export const buildTailwindPalette: ExportTarget = async (
  * Adds tailwind's aplpa channel to all colors in the palette
  * Example: oklch(98.83% 0.005 20) -> oklch(98.83% 0.005 20 / <alpha-value>)
  */
-function addAlphaChannel(palette: Palette) {
+function addAlphaChannel(palette: SimplePalette) {
   palette = structuredClone(palette);
 
   for (const [name, shades] of Object.entries(palette)) {
