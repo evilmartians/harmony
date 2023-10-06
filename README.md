@@ -1,3 +1,5 @@
+![Harmony](cover.png)
+
 # Harmony: Accessible UI Color Palette
 
 The [Harmony palette](https://www.figma.com/community/file/1287828769207775946/harmony-accessible-ui-color-palette)
