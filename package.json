@@ -1,6 +1,6 @@
 {
   "name": "@evilmartians/harmony",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "build": "deno task build",
     "prepublishOnly": "npm run build"
