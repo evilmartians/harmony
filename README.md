@@ -59,7 +59,7 @@ npm install -D @csstools/postcss-oklab-function
 export default {
     plugins: {
         tailwindcss: {},
-+        '@csstools/postcss-oklab-function': { 'preserve': true },
++       '@csstools/postcss-oklab-function': { 'preserve': true },
         autoprefixer: {},
     },
 }
