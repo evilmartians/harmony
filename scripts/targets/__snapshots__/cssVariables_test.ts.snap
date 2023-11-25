@@ -31,3 +31,8 @@ snapshot[`generateCssVars export target 2`] = `
 }
 "
 `;
+
+snapshot[`generateCssVars export target 3`] = `
+'@import "./red.css";
+@import "./orange.css";'
+`;

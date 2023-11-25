@@ -28,6 +28,8 @@ Deno.test("generateCssVars export target", async (t) => {
   await testExportTarget(
     t,
     buildCssVars,
-    Object.keys(getTestPalette()).map((color) => `${color}.css`),
+    Object.keys(getTestPalette())
+      .map((color) => `${color}.css`)
+      .concat("index.css"),
   );
 });

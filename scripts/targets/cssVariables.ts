@@ -1,9 +1,12 @@
 import { path } from "../deps.ts";
 import type { ExportTarget, PaletteWithFallback } from "../types.ts";
 
-export const buildCssVars: ExportTarget = async (
-  { palette, targetDir },
-) => {
+/**
+ * Build CSS variables for each color in the palette in a separate css file + one index.css file with all colors.
+ */
+export const buildCssVars: ExportTarget = async ({ palette, targetDir }) => {
+  const all: string[] = [];
+
   for (const [colorName, shades] of Object.entries(palette)) {
     const oklchVars = generateCssVarsForColor(colorName, shades, "oklch");
     const fallbackVars = generateCssVarsForColor(
@@ -16,7 +19,11 @@ export const buildCssVars: ExportTarget = async (
       path.join(targetDir, `${colorName}.css`),
       cssFileTemplate(oklchVars, fallbackVars),
     );
+
+    all.push(`@import "./${colorName}.css";`);
   }
+
+  await Deno.writeTextFile(path.join(targetDir, `index.css`), all.join("\n"));
 };
 
 function cssFileTemplate(oklchVars: string[], fallbackVars: string[]) {
