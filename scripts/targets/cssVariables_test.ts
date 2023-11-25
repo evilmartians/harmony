@@ -15,12 +15,12 @@ Deno.test("generateCssVarsForColor", () => {
   };
 
   assertEquals(generateCssVarsForColor("blue", blue, "oklch"), [
-    "--blue-100: oklch(0.1111 0.151562 20);",
-    "--blue-200: oklch(0.2222 0.151562 20);",
+    "--blue-100:oklch(0.1111 0.151562 20);",
+    "--blue-200:oklch(0.2222 0.151562 20);",
   ]);
   assertEquals(generateCssVarsForColor("blue", blue, "rgbFallback"), [
-    "--blue-100: #fc8083;",
-    "--blue-200: #fc8083;",
+    "--blue-100:#fc8083;",
+    "--blue-200:#fc8083;",
   ]);
 });
 

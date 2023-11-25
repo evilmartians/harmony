@@ -48,7 +48,7 @@ export function generateCssVarsForColor(
 ) {
   const cssVars = [];
   for (const [shade, value] of Object.entries(shades)) {
-    cssVars.push(`--${color}-${shade}: ${value[prop]};`);
+    cssVars.push(`--${color}-${shade}:${value[prop]};`);
   }
   return cssVars;
 }
