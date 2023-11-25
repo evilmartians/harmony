@@ -2,10 +2,11 @@
 
 ### New features
 
-- Add `@evilmartians/harmony/css/index.css` file that imports all other css files. Closes #4
+- Add `@evilmartians/harmony/css/index.css` file that imports all other css files. Closes [#4](https://github.com/evilmartians/harmony/issues/4).
 
 ### Bug fixes
-- Remove spaces between variable names and values in generated css for smaller minified css files. Closes #7
+
+- Remove spaces between variable names and values in generated css for smaller minified css files. Closes [#7](https://github.com/evilmartians/harmony/issues/7).
 
 ### Improvements
 
