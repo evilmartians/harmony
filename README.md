@@ -4,10 +4,10 @@
 
 The
 [Harmony palette](https://www.figma.com/community/file/1287828769207775946/harmony-accessible-ui-color-palette)
-is designed to elevate control over color contrast in your design system. With
-the OKLCH color space and the innovative APCA contrast algorithm, Harmony offers
-highly consistent color shades, previously unavailable P3 gamut colors, and
-precise control over text and UI element contrast.
+is designed to elevate control over color contrast in your design system.
+- Uses OKLCH and APCA for highly consistent color shades
+- Has P3 options for modern screens
+- Created to keep precise control over text and UI element contrast
 
 <img src="https://cdn.evilmartians.com/badges/logo-no-label.svg" alt="" width="22" height="16" />  Made
 by

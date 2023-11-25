@@ -15,7 +15,7 @@
 
 ### New features
 
-Add css-variables export target
+- Add css-variables export target
 
 ## 1.0.0 (2023-10-05)
 
