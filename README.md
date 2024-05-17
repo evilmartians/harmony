@@ -81,7 +81,7 @@ Harmony also provides an `index.css` file that imports all other css files.
 👮WARNING: this file is **huge** and should be used only in combination with PurgeCSS (with `variables` option enabled), other tools that can clean unused css variables, or if you really need all the colors.
 
 ```css
-@import '@evilmartians/harmony/css/index.css
+@import '@evilmartians/harmony/css/index.css';
 
 /* now you can use any color */
 h1 {
