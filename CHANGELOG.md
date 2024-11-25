@@ -1,3 +1,7 @@
+## 1.3.0 (2024-11-25)
+
+- Add support for Tailwind v4
+
 ## 1.2.0 (2023-11-25)
 
 ### New features
