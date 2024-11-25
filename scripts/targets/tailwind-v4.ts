@@ -19,6 +19,9 @@ export const buildTailwindv4Palette: ExportTarget = async (
 @theme {
   --color-*: initial;
 
+  --color-white: #fff;
+  --color-black: #000;
+
   ${vars.join("\n  ")}
 }`;
 
