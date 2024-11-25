@@ -32,6 +32,18 @@ npm install @evilmartians/harmony
 
 Harmony can work as drop-in replacement for the Tailwind color palette:
 
+### Tailwind v4
+
+Simply import `@evilmartians/harmony/tailwind.css`:
+
+```css
+/* app.css, or anywhere within Tailwind-aware context */
+@import 'tailwindcss';
+@import "@evilmartians/harmony/tailwind.css";
+```
+
+### Tailwind v3
+
 ```js
 // tailwind.config.js
 
