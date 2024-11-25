@@ -12,6 +12,7 @@
       "require": "./dist/tailwind/index.mjs",
       "types": "./dist/tailwind/index.d.ts"
     },
+    "./tailwind.css": "./dist/tailwind/index.css",
     "./base": {
       "import": "./dist/base/index.mjs",
       "require": "./dist/base/index.js",

@@ -4,6 +4,7 @@ import { buildTailwindPalette } from "./targets/tailwind.ts";
 import { buildBasicPalette } from "./targets/base.ts";
 import { ExportTarget, PaletteWithFallback } from "./types.ts";
 import { buildCssVars } from "./targets/cssVariables.ts";
+import { buildTailwindv4Palette } from "./targets/tailwind-v4.ts";
 
 //
 // Config
@@ -18,6 +19,10 @@ const EXPORT_TARGETS = [
   {
     targetDir: "tailwind",
     target: buildTailwindPalette,
+  },
+  {
+    targetDir: "tailwind",
+    target: buildTailwindv4Palette,
   },
   {
     targetDir: "css",
