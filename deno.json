@@ -5,6 +5,8 @@
     "test": "deno test --allow-read --allow-write",
     "update-snapshots": "deno test --allow-read --allow-write -- --update",
     "changesets": "deno run -A npm:@changesets/cli",
+    "ci:test": "deno test -A --clean --coverage=coverage --junit-path=coverage/junit.xml",
+    "ci:coverage": "deno coverage --lcov --output=./coverage/coverage.lcov",
     "ci:changesets:version": "deno run -A npm:@changesets/cli version",
     "ci:changesets:publish": "deno run -A npm:@changesets/cli publish"
   },
