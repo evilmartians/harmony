@@ -1,4 +1,4 @@
-import { assertEquals } from "../deps.ts";
+import { assertEquals } from "@std/assert";
 import { buildCssVars, generateCssVarsForColor } from "./cssVariables.ts";
 import { getTestPalette, testExportTarget } from "./testUtils.ts";
 

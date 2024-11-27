@@ -32,8 +32,9 @@
   "license": "MIT",
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.9",
-    "publint": "^0.2.12"
+    "@changesets/cli": "^2.27.10",
+    "publint": "^0.2.12",
+    "zod": "^3.23.8"
   },
   "devEngines": {
     "runtime": [

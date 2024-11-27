@@ -1,5 +1,5 @@
 import type { ExportTarget } from "../types.ts";
-import { path } from "../deps.ts";
+import * as path from "@std/path";
 import {
   generateCJS,
   generateEsm,
