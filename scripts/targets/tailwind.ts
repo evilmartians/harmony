@@ -21,9 +21,9 @@ export const buildTailwindPalette: ExportTarget = async (
   };
 
   const content = generateCJS(twPalette);
-  await Deno.writeTextFile(path.join(targetDir, "index.js"), content);
+  await Deno.writeTextFile(path.join(targetDir, "index.cjs"), content);
   await Deno.writeTextFile(
-    path.join(targetDir, "index.mjs"),
+    path.join(targetDir, "index.js"),
     generateEsm(twPalette),
   );
   await Deno.writeTextFile(

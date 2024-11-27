@@ -1,6 +1,7 @@
 {
   "tasks": {
     "build": "deno run --allow-read --allow-write scripts/build.ts",
+    "publint": "deno run --allow-read --allow-env npm:publint",
     "test": "deno test --allow-read --allow-write",
     "update-snapshots": "deno test --allow-read --allow-write -- --update",
     "changesets": "deno run -A npm:@changesets/cli",

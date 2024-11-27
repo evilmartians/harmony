@@ -4,7 +4,7 @@ import { testExportTarget } from "./testUtils.ts";
 Deno.test("Tailwind export target", async (t) => {
   await testExportTarget(t, buildTailwindPalette, [
     "index.js",
-    "index.mjs",
+    "index.cjs",
     "index.d.ts",
   ]);
 });

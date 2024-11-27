@@ -1,6 +1,20 @@
 export const snapshot = {};
 
 snapshot[`base export 1`] = `
+'
+  export default {
+  "red": {
+    "100": "oklch(0.966797 0.0171875 20)",
+    "500": "oklch(0.742188 0.151562 20)"
+  },
+  "orange": {
+    "100": "oklch(0.966797 0.0171875 43.3333)"
+  }
+};
+'
+`;
+
+snapshot[`base export 2`] = `
 \`'use strict';
 module.exports = {
   "red": {
@@ -13,20 +27,6 @@ module.exports = {
 };
 Object.defineProperty(exports, '__esModule', { value: true });
 \`
-`;
-
-snapshot[`base export 2`] = `
-'
-  export default {
-  "red": {
-    "100": "oklch(0.966797 0.0171875 20)",
-    "500": "oklch(0.742188 0.151562 20)"
-  },
-  "orange": {
-    "100": "oklch(0.966797 0.0171875 43.3333)"
-  }
-};
-'
 `;
 
 snapshot[`base export 3`] = `
