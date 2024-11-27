@@ -1,0 +1,48 @@
+name: Changesets
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.changeset/**'
+      - '.github/workflows/changesets.yaml'
+  workflow_dispatch:
+
+env:
+  CI: true
+jobs:
+  Version:
+    # prevents this action from running on forks
+    if: github.repository == 'evilmartians/harmony'
+    permissions:
+      contents: write # to create release (changesets/action)
+      pull-requests: write # to create pull request (changesets/action)
+      id-token: write #  OpenID Connect token needed for provenance
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Install node dependencies
+        run: 'deno install'
+
+      - name: Create release PR or Publish to npm
+        uses: changesets/action@v1
+        with:
+          version: deno task ci:changesets:version
+          publish: deno task ci:changesets:publish
+          commit: 'Changesets versioning & publication'
+          title: 'Changesets: Versioning & Publication'
+          createGithubReleases: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+

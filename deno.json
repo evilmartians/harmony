@@ -2,7 +2,10 @@
   "tasks": {
     "build": "deno run --allow-read --allow-write scripts/build.ts",
     "test": "deno test --allow-read --allow-write",
-    "update-snapshots": "deno test --allow-read --allow-write -- --update"
+    "update-snapshots": "deno test --allow-read --allow-write -- --update",
+    "changesets": "deno run -A npm:@changesets/cli",
+    "ci:changesets:version": "deno run -A npm:@changesets/cli version",
+    "ci:changesets:publish": "deno run -A npm:@changesets/cli publish"
   },
   "fmt": {
     "useTabs": false,
