@@ -1,5 +1,5 @@
-import * as z from "https://esm.sh/v132/zod@3.22.2";
-import { fs, path } from "./deps.ts";
+import * as z from "zod";
+import * as path from "@std/path";
 import { buildTailwindPalette } from "./targets/tailwind.ts";
 import { buildBasicPalette } from "./targets/base.ts";
 import { ExportTarget, PaletteWithFallback } from "./types.ts";
@@ -91,8 +91,12 @@ async function runExportTarget(
 }
 
 async function createDistDir(dir: string) {
-  if (await fs.exists(dir)) {
+  try {
     await Deno.remove(dir, { recursive: true });
+  } catch (err) {
+    if (!(err instanceof Deno.errors.NotFound)) {
+      throw err;
+    }
   }
   await Deno.mkdir(dir);
 }
