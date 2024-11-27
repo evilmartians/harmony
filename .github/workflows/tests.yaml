@@ -4,9 +4,8 @@ on:
     branches:
       - main
     paths:
-      - 'package/lib/**'
-      - '**/*_test.ts'
-      - '.github/workflows/tests.yaml'
+      - "scripts/**/*"
+      - ".github/workflows/tests.yaml"
   pull_request:
     branches:
       - main
@@ -34,25 +33,25 @@ jobs:
           deno-version: v2.x
 
       - name: Install dependencies
-        run: 'deno install'
+        run: "deno install"
 
       - name: Lint
-        run: 'deno lint'
-      
+        run: "deno lint"
+
       - name: Type-check
-        run: 'deno check **/*.ts'
+        run: "deno check **/*.ts"
 
       - name: Build
-        run: 'deno task build' 
+        run: "deno task build"
 
       - name: Publint
-        run: 'deno task publint'
+        run: "deno task publint"
 
       - name: Run unit tests
-        run: 'deno task ci:test'
+        run: "deno task ci:test"
 
       - name: Generate code coverage report
-        run: 'deno task ci:coverage'
+        run: "deno task ci:coverage"
 
       - name: Upload test results to Codecov
         uses: codecov/test-results-action@v1
@@ -71,4 +70,3 @@ jobs:
           flags: unittests, ${{ runner.os }}
           token: ${{ secrets.CODECOV_TOKEN }}
           verbose: true
-
