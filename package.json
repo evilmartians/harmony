@@ -22,6 +22,10 @@
     },
     "./css/*": "./dist/css/*"
   },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "files": ["dist/*"],
   "keywords": ["colors", "palette", "tailwind"],
   "sideEffects": false,
