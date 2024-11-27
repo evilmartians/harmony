@@ -1,5 +1,7 @@
 ![Harmony](cover.png)
 
+[![github.actions.changesets.badge]][github.actions.changesets] [![codecov.badge]][codecov] [![MIT][license.badge]][license] [![npm.badge]][npm]
+
 # Harmony: Accessible UI Color Palette
 
 The
@@ -135,3 +137,13 @@ Typical workflow is as follow:
 3. commit both (1) and (2) into git.
 
 The [changesets Github action](./.github/workflows/changesets.yaml) is triggered on `push` to `main` and will create a corresponding "Changesets: Versioning & Publication" pull request, which, upon merged, will trigger publication of the new version to NPM.
+
+[license.badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[license]: ./LICENSE
+[npm.badge]: https://img.shields.io/npm/v/@evilmartians/harmony
+[npm]: https://www.npmjs.com/package/@evilmartians/harmony
+[github.actions.changesets.badge]: https://github.com/evilmartians/harmony/actions/workflows/changesets.yaml/badge.svg?branch=main
+[github.actions.changesets]: https://github.com/evilmartians/harmony/actions/workflows/changesets.yaml
+[codecov.badge]: https://codecov.io/gh/evilmartians/harmony/branch/main/graph/badge.svg?token=fi6Al6JEGA
+[codecov]: https://codecov.io/github/evilmartians/harmony?branch=main
+
