@@ -4,7 +4,7 @@ import { testExportTarget } from "./testUtils.ts";
 Deno.test("base export", async (t) => {
   await testExportTarget(t, buildBasicPalette, [
     "index.js",
-    "index.mjs",
+    "index.cjs",
     "index.d.ts",
   ]);
 });

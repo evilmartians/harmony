@@ -1,4 +1,4 @@
-import { snapshot } from "../deps.ts";
+import { assertSnapshot } from "@std/testing/snapshot";
 import { ExportTarget, PaletteWithFallback } from "../types.ts";
 
 export function getTestPalette(): PaletteWithFallback {
@@ -32,7 +32,7 @@ export async function testExportTarget(
   await target(args);
 
   for (const file of files) {
-    await snapshot.assertSnapshot(
+    await assertSnapshot(
       t,
       await Deno.readTextFile(`${args.targetDir}/${file}`),
     );

@@ -1,4 +1,4 @@
-import { path } from "../deps.ts";
+import * as path from "@std/path";
 import type { ExportTarget } from "../types.ts";
 
 const css = String.raw;
