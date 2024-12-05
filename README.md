@@ -1,6 +1,6 @@
 ![Harmony](cover.png)
 
-[![github.actions.changesets.badge]][github.actions.changesets] [![codecov.badge]][codecov] [![MIT][license.badge]][license] [![npm.badge]][npm]
+[![github.actions.changesets.badge]][github.actions.changesets] [![MIT][license.badge]][license] [![npm.badge]][npm]
 
 # Harmony: Accessible UI Color Palette
 
@@ -144,6 +144,3 @@ The [changesets Github action](./.github/workflows/changesets.yaml) is triggered
 [npm]: https://www.npmjs.com/package/@evilmartians/harmony
 [github.actions.changesets.badge]: https://github.com/evilmartians/harmony/actions/workflows/changesets.yaml/badge.svg?branch=main
 [github.actions.changesets]: https://github.com/evilmartians/harmony/actions/workflows/changesets.yaml
-[codecov.badge]: https://codecov.io/gh/evilmartians/harmony/branch/main/graph/badge.svg?token=fi6Al6JEGA
-[codecov]: https://codecov.io/github/evilmartians/harmony?branch=main
-
