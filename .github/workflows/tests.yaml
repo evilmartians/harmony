@@ -1,0 +1,48 @@
+name: Tests
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/**/*"
+      - ".github/workflows/tests.yaml"
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  CI: true
+jobs:
+  Test:
+    if: github.repository == 'evilmartians/harmony' # prevents this action from running on forks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Install dependencies
+        run: "deno install"
+
+      - name: Lint
+        run: "deno lint"
+
+      - name: Type-check
+        run: "deno check **/*.ts"
+
+      - name: Build
+        run: "deno task build"
+
+      - name: Publint
+        run: "deno task publint"
+
+      - name: Run unit tests
+        run: "deno task ci:test"

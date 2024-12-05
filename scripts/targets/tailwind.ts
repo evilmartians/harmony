@@ -1,11 +1,7 @@
 import type { ExportTarget, SimplePalette } from "../types.ts";
-import { assert, path } from "../deps.ts";
-import {
-  generateCJS,
-  generateEsm,
-  generateTypes,
-  simplifyPalette,
-} from "../utils.ts";
+import { assert } from "@std/assert";
+import * as path from "@std/path";
+import { generateCJS, generateEsm, generateTypes, simplifyPalette } from "../utils.ts";
 
 export const buildTailwindPalette: ExportTarget = async (
   { palette: paletteWithFallback, targetDir },
@@ -21,9 +17,9 @@ export const buildTailwindPalette: ExportTarget = async (
   };
 
   const content = generateCJS(twPalette);
-  await Deno.writeTextFile(path.join(targetDir, "index.js"), content);
+  await Deno.writeTextFile(path.join(targetDir, "index.cjs"), content);
   await Deno.writeTextFile(
-    path.join(targetDir, "index.mjs"),
+    path.join(targetDir, "index.js"),
     generateEsm(twPalette),
   );
   await Deno.writeTextFile(
