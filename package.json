@@ -1,6 +1,6 @@
 {
   "name": "@evilmartians/harmony",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "scripts": {
     "build": "deno task build && deno task publint",
     "prepublishOnly": "npm run build"
@@ -26,8 +26,14 @@
     "access": "public",
     "provenance": true
   },
-  "files": ["dist/*"],
-  "keywords": ["colors", "palette", "tailwind"],
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [
+    "colors",
+    "palette",
+    "tailwind"
+  ],
   "sideEffects": false,
   "repository": {
     "type": "git",
