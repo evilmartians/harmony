@@ -1,0 +1,79 @@
+export const snapshot = {};
+
+snapshot[`index.css 1`] = `
+"@theme {
+  --color-*: initial;
+
+  --color-white: #fff;
+  --color-black: #000;
+
+  --color-red-50: oklch(0.988281 0.0046875 20);
+  --color-red-500: oklch(0.742188 0.151562 20);
+
+  --color-orange-100: oklch(0.966797 0.0171875 43.3333);
+
+}
+"
+`;
+
+snapshot[`index.d.ts 1`] = `
+"declare namespace _default {
+  let inherit: string;
+  let current: string;
+  let transparent: string;
+  let black: string;
+  let white: string;
+
+  let red: {
+    50: string;
+    500: string;
+  };
+  let orange: {
+    100: string;
+  };
+}
+export default _default;
+"
+`;
+
+snapshot[`index.js 1`] = `
+'export default {
+  inherit: "inherit",
+  current: "currentColor",
+  transparent: "transparent",
+  black: "#000",
+  white: "#fff",
+
+  red: {
+    50: "oklch(0.988281 0.0046875 20 / <alpha-value>)",
+    500: "oklch(0.742188 0.151562 20 / <alpha-value>)",
+  },
+  orange: {
+    100: "oklch(0.966797 0.0171875 43.3333 / <alpha-value>)",
+  },
+};
+'
+`;
+
+snapshot[`index.cjs 1`] = `
+'"use strict";
+
+module.exports = {
+  inherit: "inherit",
+  current: "currentColor",
+  transparent: "transparent",
+  black: "#000",
+  white: "#fff",
+
+  red: {
+    50: "oklch(0.988281 0.0046875 20 / <alpha-value>)",
+    500: "oklch(0.742188 0.151562 20 / <alpha-value>)",
+  },
+  orange: {
+    100: "oklch(0.966797 0.0171875 43.3333 / <alpha-value>)",
+  },
+};
+
+Object.defineProperty(exports, "__esModule", { value: true });
+'
+`;

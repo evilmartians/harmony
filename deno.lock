@@ -1,6 +1,8 @@
 {
   "version": "4",
   "specifiers": {
+    "jsr:@lambdalisue/sandbox@*": "2.0.1",
+    "jsr:@lambdalisue/sandbox@^2.0.1": "2.0.1",
     "jsr:@std/assert@*": "1.0.8",
     "jsr:@std/assert@^1.0.8": "1.0.8",
     "jsr:@std/async@^1.0.8": "1.0.9",
@@ -13,12 +15,16 @@
     "npm:@changesets/changelog-github@0.5": "0.5.0",
     "npm:@changesets/cli@*": "2.27.10",
     "npm:@changesets/cli@^2.27.10": "2.27.10",
+    "npm:mustache@^4.2.0": "4.2.0",
     "npm:publint@*": "0.2.12",
     "npm:publint@~0.2.12": "0.2.12",
     "npm:zod@*": "3.23.8",
     "npm:zod@^3.23.8": "3.23.8"
   },
   "jsr": {
+    "@lambdalisue/sandbox@2.0.1": {
+      "integrity": "070c52399abda0015a8891ce62b1a27f86bb5100e15c2e7029926c46b7ae2f63"
+    },
     "@std/assert@1.0.8": {
       "integrity": "ebe0bd7eb488ee39686f77003992f389a06c3da1bbd8022184804852b2fa641b",
       "dependencies": [
@@ -549,6 +555,9 @@
     "mri@1.2.0": {
       "integrity": "sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA=="
     },
+    "mustache@4.2.0": {
+      "integrity": "sha512-71ippSywq5Yb7/tVYyGbkBggbU8H3u5Rz56fH60jGFgr8uHwxs+aSKeqmluIVzM0m0kB7xQjKS6qPfd0b2ZoqQ=="
+    },
     "node-fetch@2.7.0": {
       "integrity": "sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==",
       "dependencies": [
@@ -887,6 +896,7 @@
   },
   "workspace": {
     "dependencies": [
+      "jsr:@lambdalisue/sandbox@^2.0.1",
       "jsr:@std/assert@^1.0.8",
       "jsr:@std/path@^1.0.8",
       "jsr:@std/testing@^1.0.5"
@@ -895,6 +905,7 @@
       "dependencies": [
         "npm:@changesets/changelog-github@0.5",
         "npm:@changesets/cli@^2.27.10",
+        "npm:mustache@^4.2.0",
         "npm:publint@~0.2.12",
         "npm:zod@^3.23.8"
       ]

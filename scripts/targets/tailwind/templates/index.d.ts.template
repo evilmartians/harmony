@@ -1,0 +1,16 @@
+declare namespace _default {
+  let inherit: string;
+  let current: string;
+  let transparent: string;
+  let black: string;
+  let white: string;
+
+  {{#palette}}
+  let {{colorName}}: {
+    {{#shades}}	
+    {{shadeName}}: string;
+    {{/shades}}
+  };
+  {{/palette}}
+}
+export default _default;

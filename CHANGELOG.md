@@ -1,10 +1,12 @@
-## 1.3.0 (2024-11-25)
+# Changelog
 
 ## 1.4.0
 
 ### Minor Changes
 
 - [#14](https://github.com/evilmartians/harmony/pull/14) [`d3f6327`](https://github.com/evilmartians/harmony/commit/d3f6327d0113be26d1c3cc0468987700784726fe) Thanks [@vnphanquang](https://github.com/vnphanquang)! - set pacakge as ESM-first, prioritize ESM exports as `.js`, update CommonJS exports as `.cjs`, fix [publint](https://publint.dev/@evilmartians/harmony@1.3.0) recommendations
+
+## 1.3.0 (2024-11-25)
 
 - Add support for Tailwind v4
 

@@ -1,0 +1,11 @@
+"use strict";
+module.exports = {
+  {{#palette}}
+  {{colorName}}: {
+    {{#shades}}	
+    {{shadeName}}: "{{oklch}}",
+    {{/shades}}
+  },
+  {{/palette}}
+};
+Object.defineProperty(exports, "__esModule", { value: true });
