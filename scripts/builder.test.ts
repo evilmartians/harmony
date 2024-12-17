@@ -1,9 +1,10 @@
 import { stub } from "@std/testing/mock";
 import { assert, assertRejects } from "@std/assert";
 import { sandbox } from "@lambdalisue/sandbox";
-import { testPaletteSource } from "./utils.ts";
-import base from "../scripts/targets/base/base.config.ts";
-import { build } from "../scripts/builder.ts";
+
+import { testPaletteSource } from "../tests/utils.ts";
+import base from "./targets/base/base.config.ts";
+import { build } from "./builder.ts";
 
 Deno.test("should abort and clean up if Deno.remove throws unexpect error", async () => {
   const errorMessage = "some Deno.remove error";

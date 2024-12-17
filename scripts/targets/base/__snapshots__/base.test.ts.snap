@@ -13,6 +13,20 @@ snapshot[`index.js 1`] = `
 '
 `;
 
+snapshot[`index.d.ts 1`] = `
+"declare namespace _default {
+  let red: {
+    50: string;
+    500: string;
+  };
+  let orange: {
+    100: string;
+  };
+}
+export default _default;
+"
+`;
+
 snapshot[`index.cjs 1`] = `
 '"use strict";
 module.exports = {
@@ -26,18 +40,4 @@ module.exports = {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 '
-`;
-
-snapshot[`index.d.ts 1`] = `
-"declare namespace _default {
-  let red: {
-    50: string;
-    500: string;
-  };
-  let orange: {
-    100: string;
-  };
-}
-export default _default;
-"
 `;
