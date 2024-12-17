@@ -1,8 +1,8 @@
 {
   "tasks": {
     "build": "deno run --allow-read --allow-write scripts/build.ts",
-    "publint": "deno run --allow-read --allow-env npm:publint",
-    "test": "deno test --allow-read --allow-write",
+    "publint": "deno lint dist && deno check dist && deno run --allow-read --allow-env npm:publint",
+    "test": "deno test --allow-read --allow-write --watch",
     "update-snapshots": "deno test --allow-read --allow-write -- --update",
     "changesets": "deno run -A npm:@changesets/cli",
     "ci:test": "deno test -A --clean --coverage=coverage --junit-path=coverage/junit.xml",
@@ -20,6 +20,7 @@
   },
   "nodeModulesDir": "auto",
   "imports": {
+    "@lambdalisue/sandbox": "jsr:@lambdalisue/sandbox@^2.0.1",
     "@std/assert": "jsr:@std/assert@^1.0.8",
     "@std/path": "jsr:@std/path@^1.0.8",
     "@std/testing": "jsr:@std/testing@^1.0.5"

@@ -1,0 +1,10 @@
+declare namespace _default {
+  {{#palette}}
+  let {{colorName}}: {
+    {{#shades}}	
+    {{shadeName}}: string;
+    {{/shades}}
+  };
+  {{/palette}}
+}
+export default _default;

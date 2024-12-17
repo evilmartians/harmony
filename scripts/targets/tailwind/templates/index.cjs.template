@@ -1,0 +1,19 @@
+"use strict";
+
+module.exports = {
+  inherit: "inherit",
+  current: "currentColor",
+  transparent: "transparent",
+  black: "#000",
+  white: "#fff",
+
+  {{#palette}}
+  {{colorName}}: {
+    {{#shades}}	
+    {{shadeName}}: "{{{oklchWithAlpha}}}",
+    {{/shades}}
+  },
+  {{/palette}}
+};
+
+Object.defineProperty(exports, "__esModule", { value: true });

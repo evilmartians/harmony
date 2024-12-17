@@ -1,0 +1,13 @@
+@theme {
+  --color-*: initial;
+
+  --color-white: #fff;
+  --color-black: #000;
+
+  {{#palette}}
+  {{#shades}}
+  --color-{{colorName}}-{{shadeName}}: {{oklch}};
+  {{/shades}}
+
+  {{/palette}}
+}
