@@ -1,0 +1,43 @@
+export const snapshot = {};
+
+snapshot[`index.js 1`] = `
+'export default {
+  red: {
+    50: "oklch(0.988281 0.0046875 20)",
+    500: "oklch(0.742188 0.151562 20)",
+  },
+  orange: {
+    100: "oklch(0.966797 0.0171875 43.3333)",
+  },
+};
+'
+`;
+
+snapshot[`index.d.ts 1`] = `
+"declare namespace _default {
+  let red: {
+    50: string;
+    500: string;
+  };
+  let orange: {
+    100: string;
+  };
+}
+export default _default;
+"
+`;
+
+snapshot[`index.cjs 1`] = `
+'"use strict";
+module.exports = {
+  red: {
+    50: "oklch(0.988281 0.0046875 20)",
+    500: "oklch(0.742188 0.151562 20)",
+  },
+  orange: {
+    100: "oklch(0.966797 0.0171875 43.3333)",
+  },
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+'
+`;

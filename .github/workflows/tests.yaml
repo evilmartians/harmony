@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - "scripts/**/*"
+      - "tests/**/*"
       - ".github/workflows/tests.yaml"
   pull_request:
     branches:
