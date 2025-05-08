@@ -17,6 +17,8 @@ by
 <b><a href="https://evilmartians.com/devtools?utm_source=harmony&utm_campaign=devtools-button&utm_medium=github">Evil
 Martians</a></b>, product consulting for <b>developer tools</b>.
 
+Try out [Harmonizer](https://github.com/evilmartians/harmonizer) — the color palette generator used to create Harmony. Create your own color palettes with ease.
+
 ## Features
 
 - Equal contrast within lightness groups
