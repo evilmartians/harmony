@@ -53,12 +53,17 @@ Simply import `@evilmartians/harmony/tailwind.css`:
 // tailwind.config.js
 
 import harmonyPalette from "@evilmartians/harmony/tailwind";
-
+// Recommended: extend instead of replace to avoid removing custom colors
 export default {
   theme: {
-    colors: harmonyPalette,
+    extend: {
+      colors: {
+        ...harmonyPalette,
+        customBlue: "#1E40AF",
+      },
+    },
   },
-  //...
+	//...
 };
 ```
 
