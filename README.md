@@ -12,10 +12,14 @@ is designed to elevate control over color contrast in your design system.
 - Has P3 options for modern screens
 - Created to keep precise control over text and UI element contrast
 
+---
+
 <img src="https://cdn.evilmartians.com/badges/logo-no-label.svg" alt="" width="22" height="16" />  Made
 by
 <b><a href="https://evilmartians.com/devtools?utm_source=harmony&utm_campaign=devtools-button&utm_medium=github">Evil
 Martians</a></b>, product consulting for <b>developer tools</b>.
+
+---
 
 Try out [Harmonizer](https://github.com/evilmartians/harmonizer) — the color palette generator used to create Harmony. Create your own color palettes with ease.
 
